@@ -73,6 +73,8 @@ TEMPLATES = [
     },
 ]
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'jhphotography.wsgi.application'
 
 
