@@ -40,7 +40,7 @@
 {% block extra_js %}
 {% endblock %}
 
-<title>POOP {% block extra_title %}{% endblock %}</title>
+<title>{% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -61,7 +61,7 @@
                 <div class="offcanvas-body">
                     <div class="row position-absolute top-50 translate-middle">
                         <div class="col position-absolute ms-2">
-                            <a><p>SHOP</p></a>
+                            <a href="{% url 'shop' %}"><p>SHOP</p></a>
                             <a><p>EXHIBITION</p></a>
                             <a><p>CONTACT</p></a>
                         </div>
@@ -109,17 +109,13 @@
                 </div>
             </div>
         
-
-
-
-          
-
         </div>
       </nav>    
 
 {% block content %}
-<h1>T W A T</h1>
-<p>if this is working it means you are getting better</p>
+{% endblock %}
+
+{% block postloadjs %}
 {% endblock %}
 
 </body>
