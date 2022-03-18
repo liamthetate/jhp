@@ -45,6 +45,70 @@
 
 <body>
 
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+
+            <!-- LEFT MENU OFF CANVAS -->
+
+            <a class="link-dark menu-button-size" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></a>
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">TITLE</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <a><p>SHOP</p></a>
+                  <a><p>EXHIBITION</p></a>
+                  <a><p>CONTACT</p></a>
+
+                  <a><p>0123456789</p></a>
+                  <a><p>info@judehowells.co.uk</p></a>
+                  
+                  
+                </div>
+              </div>
+            
+            
+            <!-- RIGHT MENU -->
+            <div class="row align-items-end">
+                <div class="col">
+                    
+                    <!-- RIGHT MENU OFF CANVAS: PROFILE -->
+                    <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">PROFILE</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>PROFILE</p>
+                        </div>
+                    </div>
+                
+                    <!-- RIGHT MENU OFF CANVAS: CHECKOUT -->
+                    <a class="link-dark menu-button-size" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">CHECKOUT</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>CHECKOUT</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        
+
+
+
+          
+
+        </div>
+      </nav>    
+
 {% block content %}
 <h1>T W A T</h1>
 <p>if this is working it means you are getting better</p>
