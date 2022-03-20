@@ -9,7 +9,6 @@ body, p {
     font-size:x-large;
 }
 
-
 .footer p {
     color:white;
     font-size: 0.5rem;
@@ -20,3 +19,21 @@ body, p {
     max-width: 680px;
     padding: 0 15px;
   }
+
+.navbar {
+	background-color:white;
+}
+
+.offcanvas-header a, .menu-link-size a {
+    text-decoration: none;
+    color:black;
+    font-size: x-large;
+}
+
+a:hover {
+    color:darkslategray;
+}
+
+.small-font {
+    font-size: small;
+}

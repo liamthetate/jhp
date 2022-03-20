@@ -60,19 +60,19 @@
                   <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
-                <div class="offcanvas-body">
+                <div class="offcanvas-body menu-link-size">
                     <div class="row position-absolute top-50 translate-middle">
                         <div class="col position-absolute ms-2">
-                            <a href="{% url 'shop' %}"><p>SHOP</p></a>
-                            <a href="{% url 'exhibition' %}"><p>EXHIBITION</p></a>
-                            <a href="{% url 'contact' %}"><p>CONTACT</p></a>
+                            <a href="{% url 'shop' %}"><h4>SHOP</h4></a>
+                            <a href="{% url 'exhibition' %}"><h4>EXHIBITION</h4></a>
+                            <a href="{% url 'contact' %}"><h4>CONTACT</h4></a>
                         </div>
                     </div>
 
                     <div class="row position-absolute bottom-0">
                         <div class="col mb-2">
-                            <a><p>0123456789</p></a>
-                            <a><p>info@judehowells.co.uk</p></a>
+                            <a><p class="small-font">0123456789</p></a>
+                            <a><p class="small-font">info@judehowells.co.uk</p></a>
                         </div>
                     </div>
 
@@ -126,11 +126,11 @@
   <div class="container mt-auto">
     <footer class="py-2 my-3">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Shop</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Exhibition</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQ</a></li>
+        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="{% url 'shop' %}" class="nav-link px-2 text-muted">Shop</a></li>
+        <li class="nav-item"><a href="{% url 'exhibition' %}" class="nav-link px-2 text-muted">Exhibition</a></li>
+        <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link px-2 text-muted">Contact</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-muted">FAQ</a></li>
       </ul>
       <p class="text-center text-muted">&copy; 2022 Jude Howells</p>
     </footer>

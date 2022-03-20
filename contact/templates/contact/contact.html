@@ -1,7 +1,47 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 <div class="container-fluid mt-5">
-    <h1>CONTACT BITCH!</h1>
+    <h1 class="pt-4">CONTACT</h1>
+
+
+<form class="row g-3 mt-3 needs-validation" novalidate>
+    <div class="col-md-8">
+      <label for="validationCustom01" class="form-label">Name</label>
+      <input type="text" class="form-control" id="validationCustom01" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <label for="validationCustomUsername" class="form-label">Email</label>
+      <div class="input-group has-validation">
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please enter an email address.
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-8">
+      <label for="validationCustom05" class="form-label">Message</label>
+      <textarea type="text" class="form-control" id="validationCustom05" required></textarea>
+      <div class="invalid-feedback">
+        Message can't be blank!
+      </div>
+    </div>
+    
+    <div class="col-12 mt-5 mb-5">
+      <button class="btn btn-primary" type="submit">Send Message</button>
+    </div>
+  </form>
+
 </div>
+
+{% endblock %}
+
+{% block postloadjs %}
+<script type="text/javascript" src="{% static 'contact/js/contact.js' %}"></script>  
 {% endblock %}

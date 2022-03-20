@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -15,7 +15,7 @@
     <div class="col-auto mx-auto">
       <p class="lead mb-4">Photographer, Pembrokeshire</p>
       <div class="d-grid gap-2 mt-4 d-sm-flex justify-content-sm-center">
-        <a type="button" class="btn btn-outline-dark btn-lg px-4 gap-3" href="{% url 'shop' %}">Shop</a>
+        <a type="button" class="btn btn-outline-dark btn-lg px-4 mt-4 gap-3" href="{% url 'shop' %}">Shop</a>
       </div>
     </div>
   </div>
