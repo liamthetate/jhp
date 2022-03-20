@@ -8,3 +8,15 @@ body, p {
 .menu-button-size {
     font-size:x-large;
 }
+
+
+.footer p {
+    color:white;
+    font-size: 0.5rem;
+} 
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }

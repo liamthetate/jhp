@@ -4,9 +4,9 @@
   background-image: url('/media/surfers-long-surfers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 95%;
   background-color: white;
   z-index: 1;
+  margin-right: 0px;
 }
 
 .custom-height {
@@ -18,9 +18,11 @@
   max-width: 70vw;
 }
 
+.row {
+  --bs-gutter-x: 0rem;
+}
 
-
-
+/*
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
-}
+} */
