@@ -24,4 +24,6 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('home.urls')),
     path('shop/', include('shop.urls')),
+    path('contact/', include('contact.urls')),
+    path('exhibition/', include('exhibition.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #these help django find the css, images and js
