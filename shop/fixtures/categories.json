@@ -1,0 +1,42 @@
+[
+    {
+        "pk": 1,
+        "model": "shop.category",
+        "fields": {
+            "name": "surfers",
+            "friendly_name": "Surfers"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "shop.category",
+        "fields": {
+            "name": "landandsea",
+            "friendly_name": "Land & Sea"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "shop.category",
+        "fields": {
+            "name": "montage",
+            "friendly_name": "Montage"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "shop.category",
+        "fields": {
+            "name": "stdavidscathedral",
+            "friendly_name": "St. Davids Cathedral"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "shop.category",
+        "fields": {
+            "name": "whitesands",
+            "friendly_name": "Whitesands"
+        }
+    }
+]

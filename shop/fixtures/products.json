@@ -1,0 +1,108 @@
+[
+    {
+       "pk":1,
+       "model":"shop.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "category":1, 
+          "name":"Surfers",
+          "description":"Limited Edition of 250 prints",
+          "price":85.00,
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 26\" x 16\" (660mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+          "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+        "pk":2,
+        "model":"shop.product",
+        "fields":{
+           "sku":"pp5001600425",
+           "category":1,
+           "name":"Surfers II",
+           "description":"Limited Edition of 250 prints",
+           "price":65.00,
+           "type":"Type: Mounted Print",
+           "dimensions":"Print Dimensions: 21\" x 18\" (533mm x 457mm) Measurement includes 3\" (76mm) white mount",
+           "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+           "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+        "pk":3,
+        "model":"shop.product",
+        "fields":{
+           "sku":"pp5001730010",
+           "category":1,
+           "name":"A Surfer Reflects ",
+           "description":"",
+           "price":50.00,
+           "type":"Type: Mounted Print",
+           "dimensions":"Print Dimensions: 17\" by 13\" (430mm by 330mm) Measurement includes 2 and a half inch white mount",
+           "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+           "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+       "pk":4,
+       "model":"shop.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "category":1,
+          "name":"Surfing by St Davids Head",
+          "description":"Limited Edition of 250 prints",
+            "price":75.00,
+           "type":"Type: Mounted Print",
+           "dimensions":"Print Dimensions: 26.5\" x 17\" (673mm x 431mm) Measurement includes 3\" (76mm) white mount",
+           "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+           "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+       "pk":5,
+       "model":"shop.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "category":1,
+          "name":"Urban Surfer",
+          "description":"Limited Edition of 250 prints",
+          "price":80.00,
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 22\" x 20.25\" (559mm x 514mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+          "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+       "pk":6,
+       "model":"shop.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "category":1,
+          "name":"Surfer and the Sunset",
+          "description":"Limited Edition of 250 prints",
+          "price":60.00,
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21.5\" x 16\" (546mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+          "image":"DP0709201205510679M.jpg"
+       }
+    },
+    {
+       "pk":7,
+       "model":"shop.product",
+       "fields":{
+          "sku":"pp5002440521",
+          "category":1,
+          "name":"Sunset Surfers",
+          "description":"Limited Edition of 250 prints",
+          "price":40.00,
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14.5\" x 14\" (368mm x 355mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+          "image":"DP0709201205510679M.jpg"
+       }
+    }
+ ]
+ 
