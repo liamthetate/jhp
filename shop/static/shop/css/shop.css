@@ -101,7 +101,23 @@ ol.type li a:hover {
 	padding:0;
 }
 
+
+
+
+
+
 .card-body p {
 	width:200px;
-	font-size:8pt;
+	font-size:10pt;
 }
+
+.card-name {
+	margin-bottom: 0px;
+}
+
+.dimensions {
+	font-size:8pt !important;
+}
+
+
+

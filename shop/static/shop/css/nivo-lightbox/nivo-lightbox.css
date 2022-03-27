@@ -57,8 +57,9 @@
 }
 .nivo-lightbox-close {
 	position: absolute;
-	top: 2%;
-	right: 2%;
+	top: 5%;
+	right: 5%;
+	size: 2rem;
 }
 
 .nivo-lightbox-image { text-align: center; }

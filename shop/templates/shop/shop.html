@@ -328,16 +328,21 @@ Shop
       <div class="card shadow-sm portfolio-item">
          <!--<a class="expand position-absolute top-0 end-0" type="button" href=""><i class="fas fa-expand-alt"></i></a> -->
         {% if product.image %}
-          <img src="{{ product.image.url }}">
+        <a href="{{ product.image.url }}" title="{{ product.name }}" data-lightbox-gallery="{{ product.category }}">
+          <img src="{{ product.image.url }}" width="232px"> <!-- thumbnail-->
+        </a>
         {% else %}
           <img src="/media/thumbnail.jpg">
         {% endif %}
-        <div class="position-relative">
-          <!-- <a class="heart position-absolute bottom-0 end-0" type="button" href=""><i class="far fa-heart"></i></a> -->
-        </div>
+        
+        <!--<div class="position-relative">
+           <a class="heart position-absolute bottom-0 end-0" type="button" href=""><i class="far fa-heart"></i></a> 
+        </div>-->
 
         <div class="card-body">
-          <p class="card-text">{{ product.name }}</p>
+          <p class="card-name"><strong>{{ product.name }}</strong></p>
+          <p class="card-description">{{ product.description }}</p>
+          <p class="dimensions">{{ product.type | slice:"5:14"}} {{ product.dimensions | cut:" Dimensions" }}</p>
           <div class="d-flex justify-content-between align-items-center">
             <a class="heart" type="button" href=""><i class="far fa-heart"></i></a>
             <span class="btn-sm price">£{{ product.price }}</span>
