@@ -12,21 +12,18 @@
 }
 */
 
-.heart2 {
+.heart {
 	text-decoration: none;
 	color: black;
-	font-size: large;
+	font-size:medium;
 }
 
-.heart2:hover {
+.heart:hover {
 	text-decoration: none;
 	color: rgb(214, 18, 18);
 }
 
-.expand:hover {
-	text-decoration: none;
-	color: grey;
-}
+
 
 
 /* Portfolio Section */
