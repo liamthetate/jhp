@@ -1,3 +1,4 @@
+/*
 .heart, .expand  {
 	text-decoration: none;
 	color: black;
@@ -6,6 +7,18 @@
 }
 
 .heart:hover {
+	text-decoration: none;
+	color: rgb(214, 18, 18);
+}
+*/
+
+.heart2 {
+	text-decoration: none;
+	color: black;
+	font-size: large;
+}
+
+.heart2:hover {
 	text-decoration: none;
 	color: rgb(214, 18, 18);
 }
@@ -89,4 +102,9 @@ ol.type li a:hover {
 
 .price {
 	padding:0;
+}
+
+.card-body p {
+	width:200px;
+	font-size:8pt;
 }
