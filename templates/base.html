@@ -50,9 +50,7 @@
         <div class="container-fluid">
 
             <!-- LEFT MENU OFF CANVAS -->
-
             <a class="link-dark menu-button-size" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></a>
-              
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                     <a href="{% url 'home' %}">
@@ -101,14 +99,12 @@
                     <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight"><i class="fas fa-shopping-cart"></i></a>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <h5 id="offcanvasRightLabel">CHECKOUT</h5>
+                            <h5 id="offcanvasRightLabel"><i class="fas fa-shopping-cart"></i> SHOPPING CART</h5>
                             <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                           {% include "cart/cart.html" %}
-                        
-
-                        </div>
+                         </div>
                     </div>
                     
                 </div>
