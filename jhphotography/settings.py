@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'shop',
     'contact',
     'exhibition',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -147,3 +148,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#stripe shit
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
+STRIPE_CURRENCY = 'gbp'
