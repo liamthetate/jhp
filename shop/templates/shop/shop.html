@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
+
 {% block extra_css %}
 <link rel="stylesheet" type="text/css"  href="{% static 'shop/css/shop.css' %}"> <!-- this contains the transition effects -->
 <link rel="stylesheet" type="text/css" href="{% static 'shop/css/nivo-lightbox/nivo-lightbox.css' %} ">
@@ -14,6 +15,7 @@ Shop
 
 {% block content %}
 <div class="container-fluid mt-5">
+
       <div class="categories pt-5">
         <ul class="cat">
           <li>
@@ -29,55 +31,49 @@ Shop
         </ul>
       </div>
 
-
     <div class="row ms-4">
       <div class="portfolio-items"> <!-- this class is to do with animations, also indidivual col width -->
 
-    <!-- ONE UNIT -->
-    {% for product in products %}
-    <div class="m-2 {{ product.category }}">
-      <div class="card shadow-sm portfolio-item">
-         <!--<a class="expand position-absolute top-0 end-0" type="button" href=""><i class="fas fa-expand-alt"></i></a> -->
-        {% if product.image %}
-        <a href="{{ product.image.url }}" title="{{ product.name }}" data-lightbox-gallery="{{ product.category }}">
-          <img src="{{ product.image.url }}" width="232px"> <!-- thumbnail-->
-        </a>
-        {% else %}
-          <img src="/media/thumbnail.jpg">
-        {% endif %}
-        
-        <!--<div class="position-relative">
-           <a class="heart position-absolute bottom-0 end-0" type="button" href=""><i class="far fa-heart"></i></a> 
-        </div>-->
+        <!-- ONE UNIT -->
+        {% for product in products %}
+        <div class="m-2 {{ product.category }}">
+          <div class="card shadow-sm portfolio-item">
+            <!--<a class="expand position-absolute top-0 end-0" type="button" href=""><i class="fas fa-expand-alt"></i></a> -->
+            {% if product.image %}
+            <a href="{{ product.image.url }}" title="{{ product.name }}" data-lightbox-gallery="{{ product.category }}">
+              <img src="{{ product.image.url }}" width="232px"> <!-- thumbnail-->
+            </a>
+            {% else %}
+              <img src="/media/thumbnail.jpg">
+            {% endif %}
 
-        <form class="form" action="{% url 'add_to_cart' product.id %}" method="POST">
-          {% csrf_token %}
-          <div class="card-body">
-            <p class="card-name"><strong>{{ product.name }}</strong></p>
-            <p class="card-description">{{ product.description }}</p>
-            <p class="dimensions">{{ product.type | slice:"5:14"}} {{ product.dimensions | cut:" Dimensions" }}</p>
+            <form class="form" action="{% url 'add_to_cart' product.id %}" method="POST">
+              {% csrf_token %}
+              <div class="card-body">
+                <p class="card-name"><strong>{{ product.name }}</strong></p>
+                <p class="card-description">{{ product.description }}</p>
+                <p class="dimensions">{{ product.type | slice:"5:14"}} {{ product.dimensions | cut:" Dimensions" }}</p>
 
-            <div class="d-flex justify-content-between align-items-center"> <!-- d-flex -->
-              <a class="heart" type="button" href=""><i class="far fa-heart"></i></a>
-              <span class="btn-sm price">£{{ product.price }}</span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mt-2"> <!-- d-flex -->
-              <input class="form-control qty_input id_qty_{{ product.id }}"
-                type="number" name="quantity" value="1" min="1" max="99"
-                data-item_id="{{ product.id }}"style="width: 65px;">
-            <button type="submit" class="btn btn-outline-secondary">Add to Cart</button>
-              <input type="hidden" name="redirect_url" value="{{ request.path }}">
-            </div>
+                <div class="d-flex justify-content-between align-items-center"> <!-- d-flex -->
+                  <a class="heart" type="button" href=""><i class="far fa-heart"></i></a>
+                  <span class="btn-sm price">£{{ product.price }}</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-2"> <!-- d-flex -->
+                  <input class="form-control qty_input id_qty_{{ product.id }}"
+                    type="number" name="quantity" value="1" min="1" max="99"
+                    data-item_id="{{ product.id }}"style="width: 65px;">
+                <button type="submit" class="btn btn-outline-secondary">Add to Cart</button>
+                  <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                </div>
+                
+              </div>
+            </form>
             
           </div>
-        </form>
-        
+        </div>
+        {% endfor %}
       </div>
     </div>
-    {% endfor %}
-  </div>
-</div>
-
 
     <!-- UP BUTTON -->
     <div class="mx-auto my-auto position-relative" type="button">
