@@ -1,7 +1,7 @@
 from decimal import Decimal #used with money because its more accurate
 from django.conf import settings
 from django.shortcuts import get_object_or_404
-from products.models import Product
+from shop.models import Product
 
 def cart_contents(request):
 

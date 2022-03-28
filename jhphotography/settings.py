@@ -76,7 +76,8 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
-                #cart and wihlists to go here
+                'cart.contexts.cart_contents', #'cart' is app/folder. 'contexts' is the py file. 'cart_contents' is the name of the function.
+                #wishlists to go here
             ],
         },
     },
