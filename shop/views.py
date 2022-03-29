@@ -61,3 +61,4 @@ def shop_all(request):
     }
 
     return render(request, 'shop/shop.html', context)
+    
