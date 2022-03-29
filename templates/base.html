@@ -96,7 +96,27 @@
                     </div>
                 
                     <!-- RIGHT MENU OFF CANVAS: CHECKOUT -->
-                    <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight"><i class="fas fa-shopping-cart"></i></a>
+                    {% if cart_items %}
+                    <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                        {{ cart_items | length }}
+                    {% endif %}</span>
+
+                    <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                    <i class="fas fa-shopping-cart"></i></a>
+
+                    <!-- 
+                    {% if cart_items %}
+                      <span class="total-icon badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                      {% if grand_total %}
+                        £{{ grand_total|floatformat:0 }}
+                      {% else %}
+                        £0.00
+                      {% endif %}</span>
+                    {% endif %}-->
+                      
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <h5 id="offcanvasRightLabel"><i class="fas fa-shopping-cart"></i> SHOPPING CART</h5>
@@ -112,6 +132,25 @@
         
         </div>
       </nav>    
+  
+      {% if messages %}
+      <div class="message-container">
+          {% for message in messages %}
+              {% with message.level as level %}
+                  {% if level == 40 %}
+                      {% include 'includes/toasts/toast_warning.html' %}
+                  {% elif level == 30 %}
+                      {% include 'includes/toasts/toast_error.html' %}
+                  {% elif level == 25 %}
+                      {% include 'includes/toasts/toast_success.html' %}
+                  {% else %}
+                      {% include 'includes/toasts/toast_info.html' %}
+                  {% endif %}
+              {% endwith %}
+          {% endfor %}
+      </div>
+
+  {% endif %}
 
 {% block content %}
 {% endblock %}

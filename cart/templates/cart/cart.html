@@ -17,16 +17,16 @@
 
                     {% for item in cart_items %}
                         <tr class="small-font">
-                            <td class="pt-3">
+                            <td class="pt-3 pb-2">
                                {% include "cart/product-image.html" %}
                             </td>
-                            <td class="pt-3">
+                            <td class="pt-3 pb-2">
                                {% include "cart/product-info.html" %}
                             </td>
-                            <td class="pt-3 w-50">
+                            <td class="pt-3 cart-qty-width pb-2">
                                 {% include "cart/quantity-form.html" %}
                             </td>
-                            <td class="pt-3">
+                            <td class="pt-3 ms-3">
                                 <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p> <!-- {| calc_subtotal:item.quantity} -->
                             </td>
                         </tr>

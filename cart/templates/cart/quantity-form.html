@@ -1,6 +1,6 @@
 <form class="form update-form" method="POST" action="{% url 'adjust_cart' item.item_id %}">
     {% csrf_token %}
-    <div class="form-group">
+    <div class="form-group mb-1">
         <div class="input-group input-group-{{ item.item_id }}">
             
             <input class="form-control form-control-sm qty_input id_qty_{{ item.item_id }}" type="number"
@@ -10,5 +10,6 @@
         </div>
     </div>
 </form>
-<a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
+
+<a class="update-remove-icons update-link text-info me-3" type="button"><i class="fas fa-sync"></i></a>
+<a class="update-remove-icons remove-item text-danger" id="remove_{{ item.item_id }}" type="button"><i class="fas fa-trash"></i></a>
