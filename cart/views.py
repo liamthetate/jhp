@@ -43,7 +43,12 @@ def adjust_cart(request, item_id): #this is where i need to inject 'show' into h
         messages.success(request, f'Removed {product.name} from your cart')
 
     request.session['cart'] = cart
-    return redirect(reverse('shop'))
+
+    return redirect('shop')
+
+
+    
+
 
 def remove_from_cart(request, item_id):
     """Remove the item from the shopping cart"""

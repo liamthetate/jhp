@@ -99,7 +99,7 @@
                     {% if cart_items %}
                     <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                        {{ cart_items | length }}
+                        {{ cart_items | length }} 
                     {% endif %}</span>
 
                     <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
@@ -117,7 +117,7 @@
                       {% endif %}</span>
                     {% endif %}-->
                       
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas {% block show %}{% endblock %} offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <h5 id="offcanvasRightLabel"><i class="fas fa-shopping-cart"></i> SHOPPING CART</h5>
                             <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>

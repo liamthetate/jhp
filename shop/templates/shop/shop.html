@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% if cart_items %}
+  {% block show %}{{toggle}}{% endblock %}
+{% endif %}
+
 
 {% block extra_css %}
 <link rel="stylesheet" type="text/css"  href="{% static 'shop/css/shop.css' %}"> <!-- this contains the transition effects -->
@@ -11,7 +15,6 @@
 {% block extra_title %}
 Shop
 {% endblock %}
-
 
 {% block content %}
 <div class="container-fluid mt-5">
