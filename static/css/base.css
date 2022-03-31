@@ -59,3 +59,18 @@ a:hover {
     font-size: small;
 }
 
+.message-container {
+    position:fixed;
+    top:40px;
+    right:20px;
+    z-index: 99999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+

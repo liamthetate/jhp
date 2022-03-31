@@ -99,7 +99,7 @@
                     {% if cart_items %}
                     <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                        {{ cart_items | length }} 
+                      {{ product_count }}
                     {% endif %}</span>
 
                     <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
@@ -133,6 +133,7 @@
         </div>
       </nav>    
   
+      
       {% if messages %}
       <div class="message-container">
           {% for message in messages %}
@@ -175,8 +176,13 @@
   </div>
 
 {% block postloadjs %}
-<script type="text/javascript">
 
+
+<script type="text/javascript">
+  $('.toast').toast('show');
+</script>
+
+<script type="text/javascript">
   /* 
   * Disable +/- buttons outside 1-99 range.
   * If no size is passed to the function, the parameter will have a value of undefined by default,
@@ -233,6 +239,7 @@
      handleEnableDisable(itemId);
   });
 </script>
+
 {% endblock %}
 
 
