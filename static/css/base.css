@@ -61,9 +61,9 @@ a:hover {
 
 .message-container {
     position:fixed;
-    top:40px;
-    right:20px;
+    top:0px;
     z-index: 99999;
+    overflow: hidden;
 }
 
 .custom-toast {

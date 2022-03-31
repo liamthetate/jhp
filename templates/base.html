@@ -45,113 +45,113 @@
 </head>
 
 <body>
+  <nav class="navbar fixed-top">
+      <div class="container-fluid">
 
-    <nav class="navbar fixed-top">
-        <div class="container-fluid">
-
-            <!-- LEFT MENU OFF CANVAS -->
-            <a class="link-dark menu-button-size" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></a>
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <a href="{% url 'home' %}">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Jude Howells Photography</h5>
-                    </a>
-                  <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-
-                <div class="offcanvas-body menu-link-size">
-                    <div class="row position-absolute top-50 translate-middle">
-                        <div class="col position-absolute ms-2">
-                            <a href="{% url 'shop' %}"><h4>SHOP</h4></a>
-                            <a href="{% url 'exhibition' %}"><h4>EXHIBITION</h4></a>
-                            <a href="{% url 'contact' %}"><h4>CONTACT</h4></a>
-                        </div>
-                    </div>
-
-                    <div class="row position-absolute bottom-0">
-                        <div class="col mb-2">
-                            <a><p class="small-font">0123456789</p></a>
-                            <a><p class="small-font">info@judehowells.co.uk</p></a>
-                        </div>
-                    </div>
-
-                </div>
+          <!-- LEFT MENU OFF CANVAS -->
+          <a class="link-dark menu-button-size" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                  <a href="{% url 'home' %}">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Jude Howells Photography</h5>
+                  </a>
+                <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-            
-            
-            <!-- RIGHT MENU -->
-            <div class="row align-items-end">
-                <div class="col">
-                    
-                    <!-- RIGHT MENU OFF CANVAS: PROFILE -->
-                    <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 id="offcanvasRightLabel">PROFILE</h5>
-                            <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <p>PROFILE</p>
-                        </div>
-                    </div>
-                
-                    <!-- RIGHT MENU OFF CANVAS: CHECKOUT -->
-                    {% if cart_items %}
-                    <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                      {{ product_count }}
-                    {% endif %}</span>
 
-                    <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                    <i class="fas fa-shopping-cart"></i></a>
+              <div class="offcanvas-body menu-link-size">
+                  <div class="row position-absolute top-50 translate-middle">
+                      <div class="col position-absolute ms-2">
+                          <a href="{% url 'shop' %}"><h4>SHOP</h4></a>
+                          <a href="{% url 'exhibition' %}"><h4>EXHIBITION</h4></a>
+                          <a href="{% url 'contact' %}"><h4>CONTACT</h4></a>
+                      </div>
+                  </div>
 
-                    <!-- 
-                    {% if cart_items %}
-                      <span class="total-icon badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                      {% if grand_total %}
-                        £{{ grand_total|floatformat:0 }}
-                      {% else %}
-                        £0.00
-                      {% endif %}</span>
-                    {% endif %}-->
-                      
-                    <div class="offcanvas {% block show %}{% endblock %} offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 id="offcanvasRightLabel"><i class="fas fa-shopping-cart"></i> SHOPPING CART</h5>
-                            <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                          {% include "cart/cart.html" %}
-                         </div>
-                    </div>
-                    
-                </div>
+                  <div class="row position-absolute bottom-0">
+                      <div class="col mb-2">
+                          <a><p class="small-font">0123456789</p></a>
+                          <a><p class="small-font">info@judehowells.co.uk</p></a>
+                      </div>
+                  </div>
+
+              </div>
             </div>
-        
-        </div>
-      </nav>    
+          
+          
+          <!-- RIGHT MENU -->
+          <div class="row align-items-end">
+              <div class="col">
+                  
+                  <!-- RIGHT MENU OFF CANVAS: PROFILE -->
+                  <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">PROFILE</h5>
+                          <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <p>PROFILE</p>
+                      </div>
+                  </div>
+              
+                  <!-- RIGHT MENU OFF CANVAS: CHECKOUT -->
+                  {% if cart_items %}
+                  <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                    {{ product_count }}
+                  {% endif %}</span>
+
+                  <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                  <i class="fas fa-shopping-cart"></i></a>
+
+                  <!-- 
+                  {% if cart_items %}
+                    <span class="total-icon badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
+                    {% if grand_total %}
+                      £{{ grand_total|floatformat:0 }}
+                    {% else %}
+                      £0.00
+                    {% endif %}</span>
+                  {% endif %}-->
+                    
+                  <div class="offcanvas {% block show %}{% endblock %} offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel"><i class="fas fa-shopping-cart"></i> SHOPPING CART</h5>
+                          <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        {% include "cart/cart.html" %}
+                        </div>
+                  </div>
+                  
+              </div>
+          </div>
+      
+      </div>
+  </nav>    
   
       
-      {% if messages %}
-      <div class="message-container">
-          {% for message in messages %}
-              {% with message.level as level %}
-                  {% if level == 40 %}
-                      {% include 'includes/toasts/toast_warning.html' %}
-                  {% elif level == 30 %}
-                      {% include 'includes/toasts/toast_error.html' %}
-                  {% elif level == 25 %}
-                      {% include 'includes/toasts/toast_success.html' %}
-                  {% else %}
-                      {% include 'includes/toasts/toast_info.html' %}
-                  {% endif %}
-              {% endwith %}
-          {% endfor %}
-      </div>
-
-  {% endif %}
+{% if messages %}
+<div class="message-container">
+    {% for message in messages %}
+    <div class="message">
+        {% with message.level as level %}
+            {% if level == 40 %}
+                {% include 'includes/toasts/toast_warning.html' %}
+            {% elif level == 30 %}
+                {% include 'includes/toasts/toast_error.html' %}
+            {% elif level == 25 %}
+                {% include 'includes/toasts/toast_success.html' %}
+            {% else %}
+                {% include 'includes/toasts/toast_info.html' %}
+            {% endif %}
+        {% endwith %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
 
 {% block content %}
 {% endblock %}
@@ -237,6 +237,15 @@
      var currentValue = parseInt($(closestInput).val());
      $(allQuantityInputs).val(currentValue - 1);
      handleEnableDisable(itemId);
+  });
+</script>
+
+<!-- https://stackoverflow.com/questions/13932653/increase-displaying-time-of-django-messages -->
+<script>
+  $(document).ready(function() {
+      setTimeout(function() {
+          $('.message').fadeOut('slow');
+      }, 2000); // <-- time in milliseconds, 1000 =  1 sec
   });
 </script>
 
