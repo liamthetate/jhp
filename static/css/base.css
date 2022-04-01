@@ -1,10 +1,3 @@
-/* 
-body, p {
-    background-color: aquamarine; 
-    color:blueviolet;
-}
-*/
-
 .menu-button-size {
     font-size:x-large;
 }
@@ -64,13 +57,5 @@ a:hover {
     top:0px;
     z-index: 99999;
     overflow: hidden;
-}
-
-.custom-toast {
-    overflow: visible;
-}
-
-.toast-capper {
-    height: 2px;
 }
 
