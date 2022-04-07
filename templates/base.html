@@ -79,14 +79,15 @@
               <div class="col">
                   
                   <!-- RIGHT MENU OFF CANVAS: PROFILE -->
+                  <a class="link-dark menu-button-size me-3" href="{% url 'profile' %}"><i class="fas fa-user"></i></a>
                   <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
                       <div class="offcanvas-header">
                           <h5 id="offcanvasRightLabel">PROFILE</h5>
                           <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
-                      <div class="offcanvas-body">
-                          <p>PROFILE</p>
+                      <div class="offcanvas-body"> 
+                        <!-- { include "profiles/profile.html" } -->
                       </div>
                   </div>
               
@@ -241,7 +242,7 @@
   $(document).ready(function() {
       setTimeout(function() {
           $('.message').fadeOut('slow');
-      }, 2000); // <-- time in milliseconds, 1000 =  1 sec
+      }, 3000); // <-- time in milliseconds, 1000 =  1 sec
   });
 </script>
 

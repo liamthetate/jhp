@@ -10,7 +10,7 @@
 
         <div class="row">
             <div class="col">
-                <h2 class="logo-font mt-2 mb-3"><i class="fas fa-check-circle"></i> Payment successful</h2>
+                <h2 class="logo-font mt-2 mb-3"><i class="fas fa-check-circle"></i> Order successful</h2>
                 <p>Your order details are below, a copy of this has been sent to {{order.email}}</p>
             </div>
         </div>
@@ -184,7 +184,7 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-lg-7 text-right">
+        <div class="col-6 text-right">
             {% if from_profile %}
                 <a href="{% url 'profile' %} " class="btn btn-black rounded-0 my-2">
                     <span class="icon mr-2">
@@ -194,11 +194,13 @@
                 </a>
             {% endif %}
         </div>
-    </div>
-
-    <div class="row mb-5 mt-5">
-        <div class="col">
-            <h2 class="text-dark link-dark"><a href="{% url 'shop' %}"><i class="fas fa-arrow-left"></i> Return to the Shop</a></h2>
+        <div class="col-6 text-right">
+            <a href="{% url 'shop' %} " class="btn btn-black rounded-0 my-2">
+                <span class="icon mr-2">
+                    <i class="fas fa-angle-left"></i>
+                </span>
+                <span class="text-uppercase">Shop</span>
+            </a>
         </div>
     </div>
 
