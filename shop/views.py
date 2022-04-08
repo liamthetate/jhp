@@ -130,7 +130,7 @@ def delete_product(request, product_id):
     """ Delete a product from the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
-        return redirect(reverse('home'))
+        return redirect(reverse('shop'))
 
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
