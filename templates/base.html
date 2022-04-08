@@ -78,8 +78,33 @@
           <div class="row align-items-end">
               <div class="col">
                   
-                  <!-- PROFILE -->
+                  <!-- PROFILE 
                   <a class="link-dark menu-button-size me-3" href="{% url 'profile' %}"><i class="fas fa-user"></i></a>
+                    -->
+                  <!-- ADMIN CRUD -->
+                  <div class="dropstart">
+                    <a class="link-dark menu-button-size profile-button" type="button"
+                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      {% if request.user.is_authenticated %}
+                        {% if request.user.is_superuser %}
+                          <li><a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                        {% endif %}
+                        <li><a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                        <li><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        {% else %}
+                        <li><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                        <li><a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                      {% endif %}
+                    </ul>
+                  </div>
+
+                    
+                                
+                           
+                
+            
+
                   <!-- RIGHT MENU OFF CANVAS: PROFILE 
                   <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
