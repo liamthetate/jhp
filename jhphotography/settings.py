@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-yd^%9yu)m4iq6@&@+9f09hurmg^-z+++3^91#$o49xl=(lp!gy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jhp-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -123,17 +123,17 @@ WSGI_APPLICATION = 'jhphotography.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-#if 'DATABASE_URL' in os.environ:
-DATABASES = {
-    'default': dj_database_url.parse('postgres://mrnzmujstosikl:6a67c43c6657ead22345504266031ad76667738c12af411ffb73e150140c94fe@ec2-52-18-116-67.eu-west-1.compute.amazonaws.com:5432/dbg97moo4lie3a')
-} 
-#else:
-    # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    } 
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
@@ -196,3 +196,4 @@ STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 DEFAULT_FROM_EMAIL = 'info@judehowells.co.uk'
+ACCOUNT_EMAIL_VERIFICATION = 'none'
