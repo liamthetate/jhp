@@ -1,1 +1,1181 @@
-[{"model": "admin.logentry", "pk": 187, "fields": {"action_time": "2022-04-10T08:28:23.482Z", "user": 8, "content_type": 4, "object_id": "6", "object_repr": "iamasuperuser", "action_flag": 3, "change_message": ""}}, {"model": "auth.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$260000$k7hKWP1fxhiKqx1uSsacH4$RegC8TVl8dQ4pU2crXEnhg7h2YId/o2RfNJFEbjjHKY=", "last_login": "2022-04-10T08:28:12.178Z", "is_superuser": true, "username": "i_am_a_superuser", "first_name": "", "last_name": "", "email": "mrtea@protonmail.com", "is_staff": true, "is_active": true, "date_joined": "2022-04-10T08:27:38.231Z", "groups": [], "user_permissions": []}}, {"model": "sessions.session", "pk": "2jjplw2e3pdai3jm9g246gyq5t5rjpj1", "fields": {"session_data": "eyJjYXJ0Ijp7IjEiOjEsIjIiOjEsIjMiOjd9fQ:1nYsNY:zJaEYfEa7g5NZOOXAJta-sxNoWZV23A6WzgxT9g9gb0", "expire_date": "2022-04-11T16:38:04.678Z"}}, {"model": "sessions.session", "pk": "68jpzo6gspvaswoeov4zorrl1b7gcrfy", "fields": {"session_data": ".eJxVjs0OgyAQhN9lz4YAiyIce_cZzMJitW008edkfPdC4qE9TXa-2cmc0NOxj_2xpbWfGDwoqH69QPGd5gL4RfNzEXGZ93UKokTETTfRLZw-jzv7VzDSNuZvsqiMkzgk3UiXhsGl2rXOSLakWo4284Yth9ogKmKOlDBoDLJxrNtSGmndwZ95odcVIHiVRWcxFVjwdT6KeV1fwhBA3w:1nYnzC:BGvdaQ-k6rRYLLfKz42W9MSWbmK3xsrA8BOT8ejHpIw", "expire_date": "2022-04-11T11:56:38.568Z"}}, {"model": "sessions.session", "pk": "98r1235vg2ai94nngwt3m6t4kezctmrl", "fields": {"session_data": ".eJxVjEEOgjAQRe_StSFMKdWydO8ZmmlnkCppDQNGY7y7krBh-9_776MEn-xT7ovqehyFD8rjMg9-EZ58ItUpq3ZbwHjnvAK6Yb6WKpY8TylUq1JtVKpLIR7Pm7sLDCjD_w1HBgDLgCFqjBCQSUe2kZw2pql756gNdHIGrLXYRENYGw2uNS1pE9aosEgq2fPrkaa36urvD65pRZk:1nd9dD:0Wlyfs2BEmm91wtI9GrWi9Qy8M2I8zFTiVZdvZ_5uLA", "expire_date": "2022-04-23T11:51:55.414Z"}}, {"model": "sessions.session", "pk": "bjeygvk4c9ze59lxq5lniqtr2u3pi9jx", "fields": {"session_data": "e30:1ncAAV:aXjJKUSjKDsehZSCAMNxEzjC2U2a7oc2m7zyPM19DUk", "expire_date": "2022-04-20T18:14:11.732Z"}}, {"model": "sessions.session", "pk": "g3klxbrx294ogxh9xwt1hqdtnvqgv9x4", "fields": {"session_data": "e30:1nc9yT:1sITyity7dfqjuRibfxLnoVJJt580d1Eqy7ROHxdNuU", "expire_date": "2022-04-20T18:01:45.046Z"}}, {"model": "sessions.session", "pk": "lhmhxs5ezexl9iajr7mqogputm8ag3sf", "fields": {"session_data": "e30:1nc9uc:TekpzZGTqR6FE7Fr8cskWualeJEot0OoUIw3EaE4Pcc", "expire_date": "2022-04-20T17:57:46.920Z"}}, {"model": "sessions.session", "pk": "m352htl03x8squuke1z2wepvmq39bfgb", "fields": {"session_data": "e30:1ncA3Q:_1qPtFS9kTALtvMDmFvuZq9kOp3ROTaqwWx84sQki5U", "expire_date": "2022-04-20T18:06:52.148Z"}}, {"model": "sessions.session", "pk": "m89yrcsaligbf7rgwc1nhwy5qt2rgwja", "fields": {"session_data": "e30:1ncA0e:j-hxLm2Fl4XkjkjpjxZ9w4lfjVgCsnq1Kc4qnNi4aZU", "expire_date": "2022-04-20T18:04:00.502Z"}}, {"model": "sessions.session", "pk": "mjkzjbx1nwm4zfj14re9sp4lv00qbubu", "fields": {"session_data": "eyJfbWVzc2FnZXMiOiJbW1wiX19qc29uX21lc3NhZ2VcIiwgMCwgNDAsIFwiVGhlcmUncyBub3RoaW5nIGluIHlvdXIgY2FydCBhdCB0aGUgbW9tZW50XCJdXSJ9:1nc1cj:oZlgmUZSWF-P9gb9BolPViGFhaipDwzeHwoC62sp5_o", "expire_date": "2022-04-20T09:06:45.404Z"}}, {"model": "sessions.session", "pk": "o4mu1qhc6eqqrmuu2k5vgh7dkph296p9", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2pAOnaJ06d4zkIEZLWqgKW2iMd5dm3Sh2__efy_laZkHv1SZfGLVK6t2v1ugeJO8Ar5SvhQdS56nFPSq6I1WfSos9-Pm_gUGqsP3DXsBACtAIRqKEEjYRLGRnUFsm7Nz3AU-OARrLbURmRo04Drs2GBYo1VqTSV7eYxpeqq-eX8AoTM_Kg:1nd8Ol:pTRaSyD_CcObC4tNH9ozCn5qbkOs4BuGbB9UBc4vwIE", "expire_date": "2022-04-23T10:32:55.481Z"}}, {"model": "sessions.session", "pk": "oiqpej12dp6jr6y9n6oo4eclrf81hk0b", "fields": {"session_data": "eyJjYXJ0Ijp7IjE4IjoxLCIzIjoyLCI0IjoyLCIxIjoyfX0:1nYoDa:Nv1O2pkYp1pYADSlya3nZbO42sGcvC3OCDekJG6Nd4I", "expire_date": "2022-04-11T12:11:30.649Z"}}, {"model": "sessions.session", "pk": "vuh3uykkd9nkq3hi55j0sw67c5v2la7j", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2pAOnaJ06d4zkIEZLWqgKW2iMd5dm3Sh2__efy_laZkHv1SZfGLVK6t2v1ugeJO8Ar5SvhQdS56nFPSq6I1WfSos9-Pm_gUGqsP3DXsBACtAIRqKEEjYRLGRnUFsm7Nz3AU-OARrLbURmRo04Drs2GBYo1VqTSV7eYxpeqq-eX8AoTM_Kg:1ncovb:anryo7sz1WGXXh3OE30Wq1SEv1HdVLFu6_8If8eC5Ks", "expire_date": "2022-04-22T13:45:31.895Z"}}, {"model": "sessions.session", "pk": "vxvkjrz1pnxxhj51v5ixlkfrt1q4i05x", "fields": {"session_data": "e30:1ncA80:TmlZNsGOYXkGtBleLpa9NXZ8_BIxjFCIaHO4ThYph1g", "expire_date": "2022-04-20T18:11:36.454Z"}}, {"model": "sessions.session", "pk": "weivjjep5hkafld8o0hguf02qxqumvpy", "fields": {"session_data": ".eJxFyTEKgDAMBdC7_LmDgi65TAg1hUBtpWlFEe_u6FvfA5dT2UqqoCTZNSBK66AHK2h-AyTGOkrnU5sl0411F8ugMnL-d7g2EBYEsKu71cJ6HdZu0PR-Ua8kPA:1nc9uA:Zq7kat5Z4TQDwMVYpon74Vq97vu-yv66GN3ZvS8W1L8", "expire_date": "2022-04-20T17:57:18.418Z"}}, {"model": "sessions.session", "pk": "xqr07evcaldx6fn3kpmydyfb5r1etf58", "fields": {"session_data": ".eJwli8ENgDAMA3fxOw-auip4G8QGiF_V3YmSj08-2QvP_X7QAiEaBuQGOtQMrbInvDCY4IS6oRyvWpyBIw4za0ju_QPeDRON:1nYqa2:wdp2U0xn6xe8RTgij2PZntjEb7pQ1j_T6PgV2osULlU", "expire_date": "2022-04-11T14:42:50.669Z"}}, {"model": "sites.site", "pk": 1, "fields": {"domain": "example.com", "name": "example.com"}}, {"model": "shop.category", "pk": 1, "fields": {"name": "surfers", "friendly_name": "Surfers"}}, {"model": "shop.category", "pk": 2, "fields": {"name": "landandsea", "friendly_name": "Land & Sea"}}, {"model": "shop.category", "pk": 3, "fields": {"name": "montage", "friendly_name": "Montage"}}, {"model": "shop.category", "pk": 4, "fields": {"name": "stdavidscathedral", "friendly_name": "St. Davids Cathedral"}}, {"model": "shop.category", "pk": 5, "fields": {"name": "whitesands", "friendly_name": "Whitesands"}}, {"model": "shop.product", "pk": 1, "fields": {"sku": "lt1133708733", "category": 1, "name": "Surfers", "description": "Limited Edition of 250 prints", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 26\" x 16\" (660mm x 406mm) Measurement includes 3\" (76mm) white mount", "image_url": "surfers-long-surfers_C0F91Zl.jpg", "image": "Surfers.jpg"}}, {"model": "shop.product", "pk": 2, "fields": {"sku": "lt4216695890", "category": 1, "name": "Surfers II", "description": "Limited Edition of 250 prints", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 21\" x 18\" (533mm x 457mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Surfers_II.jpg"}}, {"model": "shop.product", "pk": 3, "fields": {"sku": "lt7230264809", "category": 1, "name": "A Surfer Reflects", "description": "", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17\" by 13\" (430mm by 330mm) Measurement includes 2 and a half inch white mount", "image_url": null, "image": "A_Surfer_Reflects_.jpg"}}, {"model": "shop.product", "pk": 4, "fields": {"sku": "lt1848283855", "category": 1, "name": "Surfing by St Davids Head", "description": "Limited Edition of 250 prints", "price": "75.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 26.5\" x 17\" (673mm x 431mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Surfing_by_St_Davids_Head_.jpg"}}, {"model": "shop.product", "pk": 5, "fields": {"sku": "lt6707855674", "category": 1, "name": "Urban Surfer", "description": "Limited Edition of 250 prints", "price": "80.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 22\" x 20.25\" (559mm x 514mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Urban_Surfer.jpg"}}, {"model": "shop.product", "pk": 6, "fields": {"sku": "lt0211647395", "category": 1, "name": "Surfer and the Sunset", "description": "Limited Edition of 250 prints", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 21.5\" x 16\" (546mm x 406mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Surfer_and_the_Sunset.jpg"}}, {"model": "shop.product", "pk": 7, "fields": {"sku": "lt7934561364", "category": 1, "name": "Sunset Surfers", "description": "Limited Edition of 250 prints", "price": "40.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 14.5\" x 14\" (368mm x 355mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Sunset_Surfers.jpg"}}, {"model": "shop.product", "pk": 8, "fields": {"sku": "lt7026218148", "category": 2, "name": "Mwnt", "description": "Limited Edition of 250 prints", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 22.75\" x 19\" (578mm x 482mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Mwnt_827Kxjr.jpg"}}, {"model": "shop.product", "pk": 9, "fields": {"sku": "lt8722220847", "category": 2, "name": "Blue Shed", "description": "", "price": "40.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 14\" x 18\" (355mm x 457mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Blue_Shed_CZDUSl0.jpg"}}, {"model": "shop.product", "pk": 10, "fields": {"sku": "lt9902368942", "category": 2, "name": "Newport - Parrog", "description": "", "price": "35.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 21.25\" x 10\" (539mm x 254mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Newport_-_Parrog_b2jw2WA.jpg"}}, {"model": "shop.product", "pk": 11, "fields": {"sku": "lt6728412076", "category": 2, "name": "Gateway to the Sea - Druidstone", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 14\" x 17.5\" (355mm x 444mm) Measurement includes 3\" (76.mm) white mount", "image_url": null, "image": "Gateway_to_the_Sea_-_Druidstone_QSGcOXX.jpg"}}, {"model": "shop.product", "pk": 12, "fields": {"sku": "lt3888365171", "category": 2, "name": "Three Boats on a Blue Sea - Pembrokeshire", "description": "", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16\" x 14\" (406mm x 355mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Three_Boats_on_a_Blue_Sea_-_Pembrokeshire_1VjhKL7.jpg"}}, {"model": "shop.product", "pk": 13, "fields": {"sku": "lt0102653257", "category": 2, "name": "Green Boat in the Reeds", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16\" x 16\" (406mm x 406mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Green_Boat_in_the_Reeds_olZrvXr.jpg"}}, {"model": "shop.product", "pk": 14, "fields": {"sku": "lt9405360052", "category": 2, "name": "Barafundle Through the Arch", "description": "Limited Edition of 250 prints", "price": "45.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 18.5\" x 14.5\" (469.9mm x 368.3mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Barafundle_Through_the_Arch_cQlMSaK.jpg"}}, {"model": "shop.product", "pk": 15, "fields": {"sku": "lt6768033730", "category": 3, "name": "Pembrokeshire One", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Pemrokeshire_One.jpg"}}, {"model": "shop.product", "pk": 16, "fields": {"sku": "lt9935853092", "category": 3, "name": "Pembrokeshire Two", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Pembrokeshire_Two.jpg"}}, {"model": "shop.product", "pk": 17, "fields": {"sku": "lt7286382946", "category": 3, "name": "Tenby", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Tenby.jpg"}}, {"model": "shop.product", "pk": 18, "fields": {"sku": "lt1402257245", "category": 3, "name": "Dale and Marloes", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Dale_and_Marloes.jpg"}}, {"model": "shop.product", "pk": 19, "fields": {"sku": "lt8887518688", "category": 3, "name": "Saundersfoot", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Saundersfoot.jpg"}}, {"model": "shop.product", "pk": 20, "fields": {"sku": "lt6711133218", "category": 3, "name": "Seaside", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16.5” x 18” (419mm x 457mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Seaside.jpg"}}, {"model": "shop.product", "pk": 21, "fields": {"sku": "lt1974955945", "category": 2, "name": "Newgale - Light", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 23 3/4 inches by 20 1/4 inches (603mm by 514 mm)  Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Newgale_-_Light.jpg"}}, {"model": "shop.product", "pk": 22, "fields": {"sku": "lt0863895588", "category": 2, "name": "Barafundle", "description": "Limited Edition of 250 prints", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20.5\" x 16.5\" (520.7mm x 419.1mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Barafundle_YW1y7cR.jpg"}}, {"model": "shop.product", "pk": 23, "fields": {"sku": "lt0048421056", "category": 2, "name": "Nolton Haven", "description": "Limited Edition of 250 prints", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 26.5\" x 19\" (673mm x 482mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Nolton_Haven__xkSsfVu.jpg"}}, {"model": "shop.product", "pk": 24, "fields": {"sku": "lt5742388582", "category": 2, "name": "Sea Horses", "description": "Limited Edition of 250 prints", "price": "35.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16.5\" x 13\" (419.1mm x 330.2mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Sea_Horses_cUfWoRy.jpg"}}, {"model": "shop.product", "pk": 25, "fields": {"sku": "lt8915269679", "category": 2, "name": "Pathway of Light", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 19\" x 16.5\" (482mm x 419mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Pathway_of_Light_RcMXhrX.jpg"}}, {"model": "shop.product", "pk": 26, "fields": {"sku": "lt5995139827", "category": 2, "name": "Broad Haven South", "description": "Limited Edition of 250 prints", "price": "40.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16.5\" x 16.5\" (419.1mm x 419.1mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Broad_Haven_South_Grxo8OH.jpg"}}, {"model": "shop.product", "pk": 27, "fields": {"sku": "lt0578031367", "category": 2, "name": "View Through the Grass", "description": "", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 18 inches by 18 inches (460mm by 460mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "View_Through_the_Grass.jpg"}}, {"model": "shop.product", "pk": 28, "fields": {"sku": "lt9971608707", "category": 2, "name": "Storm Sky above Abereiddi", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 14 1/2 inches by 19 1/2 inches (495mm by 381mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "Storm_Sky_above_Abereiddi__BDqBDRr.jpg"}}, {"model": "shop.product", "pk": 29, "fields": {"sku": "lt6415154636", "category": 2, "name": "One Afternoon in February - Nolton Haven", "description": "Limited Edition of 250 prints", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 22.5\" x 17.25\" (571.5mm x 438.15mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "One_Afternoon_in_February_-_Nolton_Haven_TeeRPQh.jpg"}}, {"model": "shop.product", "pk": 30, "fields": {"sku": "lt7551804581", "category": 2, "name": "Wave Breaks on the Shore at Marloes", "description": "", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 21.75\" x 15.75\" (552.45mm x 400.05mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Wave_Breaks_on_the_Shore_at_Marloes__74dgTGL.jpg"}}, {"model": "shop.product", "pk": 31, "fields": {"sku": "lt9857042606", "category": 2, "name": "Newgale - Cave with a View", "description": "", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 12.75” x 17” (324mm x 432mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "Newgale_-_Cave_with_a_View__pW0WWqm.jpg"}}, {"model": "shop.product", "pk": 32, "fields": {"sku": "lt2336265547", "category": 2, "name": "Solva Creek", "description": "", "price": "45.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17” x 11” (432 mm x 279mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "Solva_Creek__uVKnLFL.jpg"}}, {"model": "shop.product", "pk": 33, "fields": {"sku": "lt1172906919", "category": 2, "name": "Solva Sunset", "description": "", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17” x 14.5” (432mm x 368mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "Solva_Sunset__raZNAhi.jpg"}}, {"model": "shop.product", "pk": 34, "fields": {"sku": "lt6937838468", "category": 2, "name": "One April Afternoon at Manorbier", "description": "", "price": "70.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 22 3/4 inches by 12 1/4 inches (580mm by 310mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "One_April_Afternoon_at_Manorbier.jpg"}}, {"model": "shop.product", "pk": 35, "fields": {"sku": "lt9491319346", "category": 2, "name": "West Angle Bay", "description": "", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 21 1/2 inches wide by 16 1/2 inches (546mm by 406mm) Measurement includes three inch (76mm ) white mount", "image_url": null, "image": "West_Angle_Bay__H6qNX89.jpg"}}, {"model": "shop.product", "pk": 36, "fields": {"sku": "lt6995649889", "category": 2, "name": "Island in the Mist", "description": "", "price": "90.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 38 inches by 13 1/4 inches (960mm by 340mm)  Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Island_in_the_Mist.jpg"}}, {"model": "shop.product", "pk": 37, "fields": {"sku": "lt6794372915", "category": 2, "name": "Abereiddi - Before the Storm", "description": "", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 19 1/2 inches by 15 inches (495mm by 381mm) Measurement includes three inch (76mm ) white mount", "image_url": "https://drive.protonmail.com/urls/NS0P6DEAN0#73EZyWLOeLY0", "image": "abereiddi-before-the-storm_7tLWdYx.jpg"}}, {"model": "shop.product", "pk": 38, "fields": {"sku": "lt8535358221", "category": 5, "name": "Early Evening Light - Whitesands", "description": "Limited Edition of 250 prints", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20.5\" x 17\" (521mm x 432mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Early_Evening_Light_-_Whitesands_20gRZT7.jpg"}}, {"model": "shop.product", "pk": 39, "fields": {"sku": "lt3363103337", "category": 5, "name": "Whitesands - Gold", "description": "Limited Edition of 250 prints", "price": "75.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 23\" x 24\" (584mm x 609mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Whitesands_-_Gold_yH7e0oq.jpg"}}, {"model": "shop.product", "pk": 40, "fields": {"sku": "lt6528269301", "category": 5, "name": "Whitesands - Rocks and Pools", "description": "", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20.5” x 11” (521mm x 279mm) Measurement includes 2.5” (63mm) white mount", "image_url": null, "image": "Whitesands_-_Rocks_and_Pools_q9LuKsi.jpg"}}, {"model": "shop.product", "pk": 41, "fields": {"sku": "lt6205318231", "category": 5, "name": "Patterns - Whitesands", "description": "Limited Edition of 250 prints", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20.5\" x 13.5\" (520.7mm x 342.9mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Patterns_-_Whitesands_EMzhI3L.jpg"}}, {"model": "shop.product", "pk": 42, "fields": {"sku": "lt9825734132", "category": 5, "name": "Midsummer Mist", "description": "Limited Edition of 250 prints", "price": "70.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20\" x 21.5\" (508mm x 546mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Midsummer_Mist_Wo5IfHJ.jpg"}}, {"model": "shop.product", "pk": 43, "fields": {"sku": "lt7047121992", "category": 5, "name": "Sunlines - Whitesands", "description": "Limited Edition of 250 prints", "price": "60.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20.5\" x 19.5\" (520.7mm x 495.3mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Sunlines_-_Whitesands_Riol62r.jpg"}}, {"model": "shop.product", "pk": 44, "fields": {"sku": "lt5749418703", "category": 5, "name": "Winter Sunset - Whitesands", "description": "Limited Edition of 250 prints", "price": "75.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 26\" x 17\" (660mm x 432mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Winter_Sunset_-_Whitesands_Dw6HpEe.jpg"}}, {"model": "shop.product", "pk": 45, "fields": {"sku": "lt2538365881", "category": 5, "name": "Golden Path Over Sea and Sand", "description": "Limited Edition of 250 prints", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 18.5\" x 23\" (470mm x 584mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Golden_Path_Over_Sea_and_Sand_RQYlWNN.jpg"}}, {"model": "shop.product", "pk": 46, "fields": {"sku": "lt5625815532", "category": 5, "name": "One Evening in June on Whitesands", "description": "", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 24 1/2 inches by 20 1/4 inches (622 mm by 515 mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "One_Evening_in_June_on_Whitesands_.jpg"}}, {"model": "shop.product", "pk": 47, "fields": {"sku": "lt0159768165", "category": 4, "name": "Dove - Detail from Stained Glass Window", "description": "(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20\" x 18.5\" (508mm x 470mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Dove_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__lika0Aq.jpg"}}, {"model": "shop.product", "pk": 48, "fields": {"sku": "lt5652323192", "category": 4, "name": "Female Stone Head - East End", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16\" x 15.5\" (406mm x 394mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Female_Stone_Head_-_East_End_ZIUg1y0.jpg"}}, {"model": "shop.product", "pk": 49, "fields": {"sku": "lt5141504945", "category": 4, "name": "Panel detail from a window in the Thomas Becket Chapel", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 12\" x 23.5\" (305mm x 597mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Panel_detail_from_a_window_in_the_Thomas_Becket_Chapel__1pPnJD2.jpg"}}, {"model": "shop.product", "pk": 50, "fields": {"sku": "lt3971756532", "category": 4, "name": "Stained Glass Window St Davids Cathedral (L)", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20\" x 19\" (508mm x 482mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Stained_Glass_Window_St_Davids_Cathedral_L_YQcZaBm.jpg"}}, {"model": "shop.product", "pk": 51, "fields": {"sku": "lt5718735603", "category": 4, "name": "MARTYRED - Detail from Stained Glass Window in the Thomas Becket Chapel", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 17\" x 19\" (432mm x 482mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "MARTYRED_-_Detail_from_Stained_Glass_Window_in_the_Thomas_Becket_Chapel_0xFtNsl.jpg"}}, {"model": "shop.product", "pk": 52, "fields": {"sku": "lt2691310078", "category": 4, "name": "Tower Lantern", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 18\" x 18\" (457mm x 457mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Tower_Lantern__2Evg6RI.jpg"}}, {"model": "shop.product", "pk": 53, "fields": {"sku": "lt3959920650", "category": 4, "name": "Detail from window in Thomas Becket Chapel", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "40.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 15.75\" x 18.75\" (400mm x 476mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Detail_from_window_in_Thomas_Becket_Chapel_vojIhke.jpg"}}, {"model": "shop.product", "pk": 54, "fields": {"sku": "lt7646726880", "category": 4, "name": "Basil Jones - Bishop of St Davids 1874-97", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 13\" x 14.5\" (330mm x 368mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Basil_Jones_-_Bishop_of_St_Davids_1874-97_sjdNyC1.jpg"}}, {"model": "shop.product", "pk": 55, "fields": {"sku": "lt9885769667", "category": 4, "name": "Lily and Rose - Detail from Stained Glass Window", "description": "(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 11.5\" x 16\" (292mm x 406mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Lily_and_Rose_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__Ok8zX7a.jpg"}}, {"model": "shop.product", "pk": 56, "fields": {"sku": "lt3550065368", "category": 4, "name": "Stained Glass Window St Davids Cathedral (R)", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 20\" x 19\" (508mm x 482mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Stained_Glass_Window_St_Davids_Cathedral_R_9FbEaPx.jpg"}}, {"model": "shop.product", "pk": 57, "fields": {"sku": "lt9409448195", "category": 4, "name": "Lion of St Mark - The Screen", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "45.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 12.5\" x 14\" (317.5mm x 355.6mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Lion_of_St_Mark_-_The_Screen__xoTAICb.jpg"}}, {"model": "shop.product", "pk": 58, "fields": {"sku": "lt4153201091", "category": 4, "name": "Madonna and Child - Detail from the Lady Chapel Window", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "65.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 12\" x 26\" (304mm x 660mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Madonna_and_Child_-_Detail_from_the_Lady_Chapel_Window_PfDND3K.jpg"}}, {"model": "shop.product", "pk": 59, "fields": {"sku": "lt8467348427", "category": 4, "name": "Grape and Vine Leaves - Detail from Stained Glass Window", "description": "(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 18\" x 18\" (457mm x 457mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Grape_and_Vine_Leaves_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__GP6AsrC.jpg"}}, {"model": "shop.product", "pk": 60, "fields": {"sku": "lt6752712486", "category": 4, "name": "Organ Pipes", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "55.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 19\" x 20\" (482mm x 508mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Organ_Pipes__t53kgHp.jpg"}}, {"model": "shop.product", "pk": 61, "fields": {"sku": "lt2173682078", "category": 4, "name": "Male Stone Head - East End", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16\" x 15.5\" (406.4mm x 394mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Male_Stone_Head_-_East_End_4brlWVb.jpg"}}, {"model": "shop.product", "pk": 62, "fields": {"sku": "lt5093553799", "category": 4, "name": "The Lady Chapel Stained Glass Window", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 16.5\" x 16.5\" (419.1mm x 419.1mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "The_Lady_Chapel_Stained_Glass_Window_EjyGdzJ.jpg"}}, {"model": "shop.product", "pk": 63, "fields": {"sku": "lt2783303379", "category": 4, "name": "Detail - Stained Glass Window St Thomas Becket Chapel", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "50.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 14\" x 15\" (355.6mm x 381mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Detail_-_Stained_Glass_Window_St_Thomas_Becket_Chapel_OmAkLEj.jpg"}}, {"model": "shop.product", "pk": 64, "fields": {"sku": "lt7800519730", "category": 4, "name": "Inner Arch of the Screen", "description": "10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral", "price": "40.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 13.5\" x 10.75\" (342.9mm x 273.05mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Inner_Arch_of_the_Screen_z85ptmp.jpg"}}, {"model": "shop.product", "pk": 65, "fields": {"sku": "lt6941262526", "category": 4, "name": "Four Musicians from a window in the Lady Chapel", "description": "10% from the sale of this image goes towards helping maintain St Davids Cathedral\r\n\r\nIndividual images of each musician are available on request.", "price": "85.00", "type": "Type: Mounted Print", "dimensions": "Print Dimensions: 25.5\" x 12.75\" (648mm x 324mm) Measurement includes 3\" (76mm) white mount", "image_url": null, "image": "Four_Musicians_from_a_window_in_the_Lady_Chapel_79U8BeA.jpg"}}, {"model": "profiles.userprofile", "pk": 5, "fields": {"user": 8, "default_phone_number": null, "default_street_address1": null, "default_street_address2": null, "default_town_or_city": null, "default_county": null, "default_postcode": null, "default_country": null}}]
+[
+    {
+       "model":"auth.user",
+       "pk":8,
+       "fields":{
+          "password":"pbkdf2_sha256$260000$k7hKWP1fxhiKqx1uSsacH4$RegC8TVl8dQ4pU2crXEnhg7h2YId/o2RfNJFEbjjHKY=",
+          "last_login":"2022-04-10T08:55:52.972Z",
+          "is_superuser":true,
+          "username":"i_am_a_superuser",
+          "first_name":"",
+          "last_name":"",
+          "email":"mrtea@protonmail.com",
+          "is_staff":true,
+          "is_active":true,
+          "date_joined":"2022-04-10T08:27:38.231Z",
+          "groups":[
+             
+          ],
+          "user_permissions":[
+             
+          ]
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"2jjplw2e3pdai3jm9g246gyq5t5rjpj1",
+       "fields":{
+          "session_data":"eyJjYXJ0Ijp7IjEiOjEsIjIiOjEsIjMiOjd9fQ:1nYsNY:zJaEYfEa7g5NZOOXAJta-sxNoWZV23A6WzgxT9g9gb0",
+          "expire_date":"2022-04-11T16:38:04.678Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"68jpzo6gspvaswoeov4zorrl1b7gcrfy",
+       "fields":{
+          "session_data":".eJxVjs0OgyAQhN9lz4YAiyIce_cZzMJitW008edkfPdC4qE9TXa-2cmc0NOxj_2xpbWfGDwoqH69QPGd5gL4RfNzEXGZ93UKokTETTfRLZw-jzv7VzDSNuZvsqiMkzgk3UiXhsGl2rXOSLakWo4284Yth9ogKmKOlDBoDLJxrNtSGmndwZ95odcVIHiVRWcxFVjwdT6KeV1fwhBA3w:1nYnzC:BGvdaQ-k6rRYLLfKz42W9MSWbmK3xsrA8BOT8ejHpIw",
+          "expire_date":"2022-04-11T11:56:38.568Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"98r1235vg2ai94nngwt3m6t4kezctmrl",
+       "fields":{
+          "session_data":".eJxVjEEOgjAQRe_StSFMKdWydO8ZmmlnkCppDQNGY7y7krBh-9_776MEn-xT7ovqehyFD8rjMg9-EZ58ItUpq3ZbwHjnvAK6Yb6WKpY8TylUq1JtVKpLIR7Pm7sLDCjD_w1HBgDLgCFqjBCQSUe2kZw2pql756gNdHIGrLXYRENYGw2uNS1pE9aosEgq2fPrkaa36urvD65pRZk:1nd9dD:0Wlyfs2BEmm91wtI9GrWi9Qy8M2I8zFTiVZdvZ_5uLA",
+          "expire_date":"2022-04-23T11:51:55.414Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"bjeygvk4c9ze59lxq5lniqtr2u3pi9jx",
+       "fields":{
+          "session_data":"e30:1ncAAV:aXjJKUSjKDsehZSCAMNxEzjC2U2a7oc2m7zyPM19DUk",
+          "expire_date":"2022-04-20T18:14:11.732Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"g3klxbrx294ogxh9xwt1hqdtnvqgv9x4",
+       "fields":{
+          "session_data":"e30:1nc9yT:1sITyity7dfqjuRibfxLnoVJJt580d1Eqy7ROHxdNuU",
+          "expire_date":"2022-04-20T18:01:45.046Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"lhmhxs5ezexl9iajr7mqogputm8ag3sf",
+       "fields":{
+          "session_data":"e30:1nc9uc:TekpzZGTqR6FE7Fr8cskWualeJEot0OoUIw3EaE4Pcc",
+          "expire_date":"2022-04-20T17:57:46.920Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"m352htl03x8squuke1z2wepvmq39bfgb",
+       "fields":{
+          "session_data":"e30:1ncA3Q:_1qPtFS9kTALtvMDmFvuZq9kOp3ROTaqwWx84sQki5U",
+          "expire_date":"2022-04-20T18:06:52.148Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"m89yrcsaligbf7rgwc1nhwy5qt2rgwja",
+       "fields":{
+          "session_data":"e30:1ncA0e:j-hxLm2Fl4XkjkjpjxZ9w4lfjVgCsnq1Kc4qnNi4aZU",
+          "expire_date":"2022-04-20T18:04:00.502Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"mjkzjbx1nwm4zfj14re9sp4lv00qbubu",
+       "fields":{
+          "session_data":"eyJfbWVzc2FnZXMiOiJbW1wiX19qc29uX21lc3NhZ2VcIiwgMCwgNDAsIFwiVGhlcmUncyBub3RoaW5nIGluIHlvdXIgY2FydCBhdCB0aGUgbW9tZW50XCJdXSJ9:1nc1cj:oZlgmUZSWF-P9gb9BolPViGFhaipDwzeHwoC62sp5_o",
+          "expire_date":"2022-04-20T09:06:45.404Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"o4mu1qhc6eqqrmuu2k5vgh7dkph296p9",
+       "fields":{
+          "session_data":".eJxVjEEOwiAQRe_C2pAOnaJ06d4zkIEZLWqgKW2iMd5dm3Sh2__efy_laZkHv1SZfGLVK6t2v1ugeJO8Ar5SvhQdS56nFPSq6I1WfSos9-Pm_gUGqsP3DXsBACtAIRqKEEjYRLGRnUFsm7Nz3AU-OARrLbURmRo04Drs2GBYo1VqTSV7eYxpeqq-eX8AoTM_Kg:1nd8Ol:pTRaSyD_CcObC4tNH9ozCn5qbkOs4BuGbB9UBc4vwIE",
+          "expire_date":"2022-04-23T10:32:55.481Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"oiqpej12dp6jr6y9n6oo4eclrf81hk0b",
+       "fields":{
+          "session_data":"eyJjYXJ0Ijp7IjE4IjoxLCIzIjoyLCI0IjoyLCIxIjoyfX0:1nYoDa:Nv1O2pkYp1pYADSlya3nZbO42sGcvC3OCDekJG6Nd4I",
+          "expire_date":"2022-04-11T12:11:30.649Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"vuh3uykkd9nkq3hi55j0sw67c5v2la7j",
+       "fields":{
+          "session_data":".eJxVjEEOwiAQRe_C2pAOnaJ06d4zkIEZLWqgKW2iMd5dm3Sh2__efy_laZkHv1SZfGLVK6t2v1ugeJO8Ar5SvhQdS56nFPSq6I1WfSos9-Pm_gUGqsP3DXsBACtAIRqKEEjYRLGRnUFsm7Nz3AU-OARrLbURmRo04Drs2GBYo1VqTSV7eYxpeqq-eX8AoTM_Kg:1ncovb:anryo7sz1WGXXh3OE30Wq1SEv1HdVLFu6_8If8eC5Ks",
+          "expire_date":"2022-04-22T13:45:31.895Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"vxvkjrz1pnxxhj51v5ixlkfrt1q4i05x",
+       "fields":{
+          "session_data":"e30:1ncA80:TmlZNsGOYXkGtBleLpa9NXZ8_BIxjFCIaHO4ThYph1g",
+          "expire_date":"2022-04-20T18:11:36.454Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"weivjjep5hkafld8o0hguf02qxqumvpy",
+       "fields":{
+          "session_data":".eJxFyTEKgDAMBdC7_LmDgi65TAg1hUBtpWlFEe_u6FvfA5dT2UqqoCTZNSBK66AHK2h-AyTGOkrnU5sl0411F8ugMnL-d7g2EBYEsKu71cJ6HdZu0PR-Ua8kPA:1nc9uA:Zq7kat5Z4TQDwMVYpon74Vq97vu-yv66GN3ZvS8W1L8",
+          "expire_date":"2022-04-20T17:57:18.418Z"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"xqr07evcaldx6fn3kpmydyfb5r1etf58",
+       "fields":{
+          "session_data":".eJwli8ENgDAMA3fxOw-auip4G8QGiF_V3YmSj08-2QvP_X7QAiEaBuQGOtQMrbInvDCY4IS6oRyvWpyBIw4za0ju_QPeDRON:1nYqa2:wdp2U0xn6xe8RTgij2PZntjEb7pQ1j_T6PgV2osULlU",
+          "expire_date":"2022-04-11T14:42:50.669Z"
+       }
+    },
+    {
+       "model":"sites.site",
+       "pk":1,
+       "fields":{
+          "domain":"example.com",
+          "name":"example.com"
+       }
+    },
+    {
+       "model":"shop.category",
+       "pk":1,
+       "fields":{
+          "name":"surfers",
+          "friendly_name":"Surfers"
+       }
+    },
+    {
+       "model":"shop.category",
+       "pk":2,
+       "fields":{
+          "name":"landandsea",
+          "friendly_name":"Land & Sea"
+       }
+    },
+    {
+       "model":"shop.category",
+       "pk":3,
+       "fields":{
+          "name":"montage",
+          "friendly_name":"Montage"
+       }
+    },
+    {
+       "model":"shop.category",
+       "pk":4,
+       "fields":{
+          "name":"stdavidscathedral",
+          "friendly_name":"St. Davids Cathedral"
+       }
+    },
+    {
+       "model":"shop.category",
+       "pk":5,
+       "fields":{
+          "name":"whitesands",
+          "friendly_name":"Whitesands"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":1,
+       "fields":{
+          "sku":"lt1133708733",
+          "category":1,
+          "name":"Surfers",
+          "description":"Limited Edition of 250 prints",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 26\" x 16\" (660mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Surfers.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":2,
+       "fields":{
+          "sku":"lt4216695890",
+          "category":1,
+          "name":"Surfers II",
+          "description":"Limited Edition of 250 prints",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21\" x 18\" (533mm x 457mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Surfers_II.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":3,
+       "fields":{
+          "sku":"lt7230264809",
+          "category":1,
+          "name":"A Surfer Reflects",
+          "description":"",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17\" by 13\" (430mm by 330mm) Measurement includes 2 and a half inch white mount",
+          "image_url":null,
+          "image":"A_Surfer_Reflects_.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":4,
+       "fields":{
+          "sku":"lt1848283855",
+          "category":1,
+          "name":"Surfing by St Davids Head",
+          "description":"Limited Edition of 250 prints",
+          "price":"75.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 26.5\" x 17\" (673mm x 431mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Surfing_by_St_Davids_Head_.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":5,
+       "fields":{
+          "sku":"lt6707855674",
+          "category":1,
+          "name":"Urban Surfer",
+          "description":"Limited Edition of 250 prints",
+          "price":"80.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 22\" x 20.25\" (559mm x 514mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Urban_Surfer.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":6,
+       "fields":{
+          "sku":"lt0211647395",
+          "category":1,
+          "name":"Surfer and the Sunset",
+          "description":"Limited Edition of 250 prints",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21.5\" x 16\" (546mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Surfer_and_the_Sunset.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":7,
+       "fields":{
+          "sku":"lt7934561364",
+          "category":1,
+          "name":"Sunset Surfers",
+          "description":"Limited Edition of 250 prints",
+          "price":"40.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14.5\" x 14\" (368mm x 355mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Sunset_Surfers.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":8,
+       "fields":{
+          "sku":"lt7026218148",
+          "category":2,
+          "name":"Mwnt",
+          "description":"Limited Edition of 250 prints",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 22.75\" x 19\" (578mm x 482mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Mwnt_827Kxjr.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":9,
+       "fields":{
+          "sku":"lt8722220847",
+          "category":2,
+          "name":"Blue Shed",
+          "description":"",
+          "price":"40.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14\" x 18\" (355mm x 457mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Blue_Shed_CZDUSl0.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":10,
+       "fields":{
+          "sku":"lt9902368942",
+          "category":2,
+          "name":"Newport - Parrog",
+          "description":"",
+          "price":"35.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21.25\" x 10\" (539mm x 254mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Newport_-_Parrog_b2jw2WA.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":11,
+       "fields":{
+          "sku":"lt6728412076",
+          "category":2,
+          "name":"Gateway to the Sea - Druidstone",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14\" x 17.5\" (355mm x 444mm) Measurement includes 3\" (76.mm) white mount",
+          "image_url":null,
+          "image":"Gateway_to_the_Sea_-_Druidstone_QSGcOXX.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":12,
+       "fields":{
+          "sku":"lt3888365171",
+          "category":2,
+          "name":"Three Boats on a Blue Sea - Pembrokeshire",
+          "description":"",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16\" x 14\" (406mm x 355mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Three_Boats_on_a_Blue_Sea_-_Pembrokeshire_1VjhKL7.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":13,
+       "fields":{
+          "sku":"lt0102653257",
+          "category":2,
+          "name":"Green Boat in the Reeds",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16\" x 16\" (406mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Green_Boat_in_the_Reeds_olZrvXr.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":14,
+       "fields":{
+          "sku":"lt9405360052",
+          "category":2,
+          "name":"Barafundle Through the Arch",
+          "description":"Limited Edition of 250 prints",
+          "price":"45.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 18.5\" x 14.5\" (469.9mm x 368.3mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Barafundle_Through_the_Arch_cQlMSaK.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":15,
+       "fields":{
+          "sku":"lt6768033730",
+          "category":3,
+          "name":"Pembrokeshire One",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Pemrokeshire_One.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":16,
+       "fields":{
+          "sku":"lt9935853092",
+          "category":3,
+          "name":"Pembrokeshire Two",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Pembrokeshire_Two.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":17,
+       "fields":{
+          "sku":"lt7286382946",
+          "category":3,
+          "name":"Tenby",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Tenby.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":18,
+       "fields":{
+          "sku":"lt1402257245",
+          "category":3,
+          "name":"Dale and Marloes",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Dale_and_Marloes.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":19,
+       "fields":{
+          "sku":"lt8887518688",
+          "category":3,
+          "name":"Saundersfoot",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17.5” x 22.75” (444mm x 577mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Saundersfoot.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":20,
+       "fields":{
+          "sku":"lt6711133218",
+          "category":3,
+          "name":"Seaside",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16.5” x 18” (419mm x 457mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Seaside.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":21,
+       "fields":{
+          "sku":"lt1974955945",
+          "category":2,
+          "name":"Newgale - Light",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 23 3/4 inches by 20 1/4 inches (603mm by 514 mm)  Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Newgale_-_Light.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":22,
+       "fields":{
+          "sku":"lt0863895588",
+          "category":2,
+          "name":"Barafundle",
+          "description":"Limited Edition of 250 prints",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20.5\" x 16.5\" (520.7mm x 419.1mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Barafundle_YW1y7cR.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":23,
+       "fields":{
+          "sku":"lt0048421056",
+          "category":2,
+          "name":"Nolton Haven",
+          "description":"Limited Edition of 250 prints",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 26.5\" x 19\" (673mm x 482mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Nolton_Haven__xkSsfVu.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":24,
+       "fields":{
+          "sku":"lt5742388582",
+          "category":2,
+          "name":"Sea Horses",
+          "description":"Limited Edition of 250 prints",
+          "price":"35.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16.5\" x 13\" (419.1mm x 330.2mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Sea_Horses_cUfWoRy.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":25,
+       "fields":{
+          "sku":"lt8915269679",
+          "category":2,
+          "name":"Pathway of Light",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 19\" x 16.5\" (482mm x 419mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Pathway_of_Light_RcMXhrX.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":26,
+       "fields":{
+          "sku":"lt5995139827",
+          "category":2,
+          "name":"Broad Haven South",
+          "description":"Limited Edition of 250 prints",
+          "price":"40.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16.5\" x 16.5\" (419.1mm x 419.1mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Broad_Haven_South_Grxo8OH.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":27,
+       "fields":{
+          "sku":"lt0578031367",
+          "category":2,
+          "name":"View Through the Grass",
+          "description":"",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 18 inches by 18 inches (460mm by 460mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"View_Through_the_Grass.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":28,
+       "fields":{
+          "sku":"lt9971608707",
+          "category":2,
+          "name":"Storm Sky above Abereiddi",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14 1/2 inches by 19 1/2 inches (495mm by 381mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"Storm_Sky_above_Abereiddi__BDqBDRr.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":29,
+       "fields":{
+          "sku":"lt6415154636",
+          "category":2,
+          "name":"One Afternoon in February - Nolton Haven",
+          "description":"Limited Edition of 250 prints",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 22.5\" x 17.25\" (571.5mm x 438.15mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"One_Afternoon_in_February_-_Nolton_Haven_TeeRPQh.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":30,
+       "fields":{
+          "sku":"lt7551804581",
+          "category":2,
+          "name":"Wave Breaks on the Shore at Marloes",
+          "description":"",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21.75\" x 15.75\" (552.45mm x 400.05mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Wave_Breaks_on_the_Shore_at_Marloes__74dgTGL.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":31,
+       "fields":{
+          "sku":"lt9857042606",
+          "category":2,
+          "name":"Newgale - Cave with a View",
+          "description":"",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 12.75” x 17” (324mm x 432mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"Newgale_-_Cave_with_a_View__pW0WWqm.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":32,
+       "fields":{
+          "sku":"lt2336265547",
+          "category":2,
+          "name":"Solva Creek",
+          "description":"",
+          "price":"45.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17” x 11” (432 mm x 279mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"Solva_Creek__uVKnLFL.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":33,
+       "fields":{
+          "sku":"lt1172906919",
+          "category":2,
+          "name":"Solva Sunset",
+          "description":"",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17” x 14.5” (432mm x 368mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"Solva_Sunset__raZNAhi.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":34,
+       "fields":{
+          "sku":"lt6937838468",
+          "category":2,
+          "name":"One April Afternoon at Manorbier",
+          "description":"",
+          "price":"70.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 22 3/4 inches by 12 1/4 inches (580mm by 310mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"One_April_Afternoon_at_Manorbier.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":35,
+       "fields":{
+          "sku":"lt9491319346",
+          "category":2,
+          "name":"West Angle Bay",
+          "description":"",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 21 1/2 inches wide by 16 1/2 inches (546mm by 406mm) Measurement includes three inch (76mm ) white mount",
+          "image_url":null,
+          "image":"West_Angle_Bay__H6qNX89.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":36,
+       "fields":{
+          "sku":"lt6995649889",
+          "category":2,
+          "name":"Island in the Mist",
+          "description":"",
+          "price":"90.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 38 inches by 13 1/4 inches (960mm by 340mm)  Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Island_in_the_Mist.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":37,
+       "fields":{
+          "sku":"lt6794372915",
+          "category":2,
+          "name":"Abereiddi - Before the Storm",
+          "description":"",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 19 1/2 inches by 15 inches (495mm by 381mm) Measurement includes three inch (76mm ) white mount",
+          "image_url":null,
+          "image":"abereiddi-before-the-storm_7tLWdYx.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":38,
+       "fields":{
+          "sku":"lt8535358221",
+          "category":5,
+          "name":"Early Evening Light - Whitesands",
+          "description":"Limited Edition of 250 prints",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20.5\" x 17\" (521mm x 432mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Early_Evening_Light_-_Whitesands_20gRZT7.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":39,
+       "fields":{
+          "sku":"lt3363103337",
+          "category":5,
+          "name":"Whitesands - Gold",
+          "description":"Limited Edition of 250 prints",
+          "price":"75.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 23\" x 24\" (584mm x 609mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Whitesands_-_Gold_yH7e0oq.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":40,
+       "fields":{
+          "sku":"lt6528269301",
+          "category":5,
+          "name":"Whitesands - Rocks and Pools",
+          "description":"",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20.5” x 11” (521mm x 279mm) Measurement includes 2.5” (63mm) white mount",
+          "image_url":null,
+          "image":"Whitesands_-_Rocks_and_Pools_q9LuKsi.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":41,
+       "fields":{
+          "sku":"lt6205318231",
+          "category":5,
+          "name":"Patterns - Whitesands",
+          "description":"Limited Edition of 250 prints",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20.5\" x 13.5\" (520.7mm x 342.9mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Patterns_-_Whitesands_EMzhI3L.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":42,
+       "fields":{
+          "sku":"lt9825734132",
+          "category":5,
+          "name":"Midsummer Mist",
+          "description":"Limited Edition of 250 prints",
+          "price":"70.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20\" x 21.5\" (508mm x 546mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Midsummer_Mist_Wo5IfHJ.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":43,
+       "fields":{
+          "sku":"lt7047121992",
+          "category":5,
+          "name":"Sunlines - Whitesands",
+          "description":"Limited Edition of 250 prints",
+          "price":"60.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20.5\" x 19.5\" (520.7mm x 495.3mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Sunlines_-_Whitesands_Riol62r.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":44,
+       "fields":{
+          "sku":"lt5749418703",
+          "category":5,
+          "name":"Winter Sunset - Whitesands",
+          "description":"Limited Edition of 250 prints",
+          "price":"75.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 26\" x 17\" (660mm x 432mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Winter_Sunset_-_Whitesands_Dw6HpEe.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":45,
+       "fields":{
+          "sku":"lt2538365881",
+          "category":5,
+          "name":"Golden Path Over Sea and Sand",
+          "description":"Limited Edition of 250 prints",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 18.5\" x 23\" (470mm x 584mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Golden_Path_Over_Sea_and_Sand_RQYlWNN.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":46,
+       "fields":{
+          "sku":"lt5625815532",
+          "category":5,
+          "name":"One Evening in June on Whitesands",
+          "description":"",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 24 1/2 inches by 20 1/4 inches (622 mm by 515 mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"One_Evening_in_June_on_Whitesands_.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":47,
+       "fields":{
+          "sku":"lt0159768165",
+          "category":4,
+          "name":"Dove - Detail from Stained Glass Window",
+          "description":"(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20\" x 18.5\" (508mm x 470mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Dove_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__lika0Aq.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":48,
+       "fields":{
+          "sku":"lt5652323192",
+          "category":4,
+          "name":"Female Stone Head - East End",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16\" x 15.5\" (406mm x 394mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Female_Stone_Head_-_East_End_ZIUg1y0.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":49,
+       "fields":{
+          "sku":"lt5141504945",
+          "category":4,
+          "name":"Panel detail from a window in the Thomas Becket Chapel",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 12\" x 23.5\" (305mm x 597mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Panel_detail_from_a_window_in_the_Thomas_Becket_Chapel__1pPnJD2.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":50,
+       "fields":{
+          "sku":"lt3971756532",
+          "category":4,
+          "name":"Stained Glass Window St Davids Cathedral (L)",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20\" x 19\" (508mm x 482mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Stained_Glass_Window_St_Davids_Cathedral_L_YQcZaBm.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":51,
+       "fields":{
+          "sku":"lt5718735603",
+          "category":4,
+          "name":"MARTYRED - Detail from Stained Glass Window in the Thomas Becket Chapel",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 17\" x 19\" (432mm x 482mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"MARTYRED_-_Detail_from_Stained_Glass_Window_in_the_Thomas_Becket_Chapel_0xFtNsl.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":52,
+       "fields":{
+          "sku":"lt2691310078",
+          "category":4,
+          "name":"Tower Lantern",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 18\" x 18\" (457mm x 457mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Tower_Lantern__2Evg6RI.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":53,
+       "fields":{
+          "sku":"lt3959920650",
+          "category":4,
+          "name":"Detail from window in Thomas Becket Chapel",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"40.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 15.75\" x 18.75\" (400mm x 476mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Detail_from_window_in_Thomas_Becket_Chapel_vojIhke.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":54,
+       "fields":{
+          "sku":"lt7646726880",
+          "category":4,
+          "name":"Basil Jones - Bishop of St Davids 1874-97",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 13\" x 14.5\" (330mm x 368mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Basil_Jones_-_Bishop_of_St_Davids_1874-97_sjdNyC1.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":55,
+       "fields":{
+          "sku":"lt9885769667",
+          "category":4,
+          "name":"Lily and Rose - Detail from Stained Glass Window",
+          "description":"(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 11.5\" x 16\" (292mm x 406mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Lily_and_Rose_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__Ok8zX7a.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":56,
+       "fields":{
+          "sku":"lt3550065368",
+          "category":4,
+          "name":"Stained Glass Window St Davids Cathedral (R)",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 20\" x 19\" (508mm x 482mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Stained_Glass_Window_St_Davids_Cathedral_R_9FbEaPx.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":57,
+       "fields":{
+          "sku":"lt9409448195",
+          "category":4,
+          "name":"Lion of St Mark - The Screen",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"45.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 12.5\" x 14\" (317.5mm x 355.6mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Lion_of_St_Mark_-_The_Screen__xoTAICb.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":58,
+       "fields":{
+          "sku":"lt4153201091",
+          "category":4,
+          "name":"Madonna and Child - Detail from the Lady Chapel Window",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"65.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 12\" x 26\" (304mm x 660mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Madonna_and_Child_-_Detail_from_the_Lady_Chapel_Window_PfDND3K.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":59,
+       "fields":{
+          "sku":"lt8467348427",
+          "category":4,
+          "name":"Grape and Vine Leaves - Detail from Stained Glass Window",
+          "description":"(East End, St Davids Cathedral). 10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 18\" x 18\" (457mm x 457mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Grape_and_Vine_Leaves_-_Detail_from_Stained_Glass_Window_East_End_St_Davids_Cathedral__GP6AsrC.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":60,
+       "fields":{
+          "sku":"lt6752712486",
+          "category":4,
+          "name":"Organ Pipes",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"55.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 19\" x 20\" (482mm x 508mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Organ_Pipes__t53kgHp.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":61,
+       "fields":{
+          "sku":"lt2173682078",
+          "category":4,
+          "name":"Male Stone Head - East End",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16\" x 15.5\" (406.4mm x 394mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Male_Stone_Head_-_East_End_4brlWVb.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":62,
+       "fields":{
+          "sku":"lt5093553799",
+          "category":4,
+          "name":"The Lady Chapel Stained Glass Window",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 16.5\" x 16.5\" (419.1mm x 419.1mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"The_Lady_Chapel_Stained_Glass_Window_EjyGdzJ.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":63,
+       "fields":{
+          "sku":"lt2783303379",
+          "category":4,
+          "name":"Detail - Stained Glass Window St Thomas Becket Chapel",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"50.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 14\" x 15\" (355.6mm x 381mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Detail_-_Stained_Glass_Window_St_Thomas_Becket_Chapel_OmAkLEj.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":64,
+       "fields":{
+          "sku":"lt7800519730",
+          "category":4,
+          "name":"Inner Arch of the Screen",
+          "description":"10% from the sale of this image goes towards\r\nhelping maintain St Davids Cathedral",
+          "price":"40.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 13.5\" x 10.75\" (342.9mm x 273.05mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Inner_Arch_of_the_Screen_z85ptmp.jpg"
+       }
+    },
+    {
+       "model":"shop.product",
+       "pk":65,
+       "fields":{
+          "sku":"lt6941262526",
+          "category":4,
+          "name":"Four Musicians from a window in the Lady Chapel",
+          "description":"10% from the sale of this image goes towards helping maintain St Davids Cathedral\r\n\r\nIndividual images of each musician are available on request.",
+          "price":"85.00",
+          "type":"Type: Mounted Print",
+          "dimensions":"Print Dimensions: 25.5\" x 12.75\" (648mm x 324mm) Measurement includes 3\" (76mm) white mount",
+          "image_url":null,
+          "image":"Four_Musicians_from_a_window_in_the_Lady_Chapel_79U8BeA.jpg"
+       }
+    },
+    {
+       "model":"profiles.userprofile",
+       "pk":5,
+       "fields":{
+          "user":9,
+          "default_phone_number":null,
+          "default_street_address1":null,
+          "default_street_address2":null,
+          "default_town_or_city":null,
+          "default_county":null,
+          "default_postcode":null,
+          "default_country":null
+       }
+    }
+ ]
