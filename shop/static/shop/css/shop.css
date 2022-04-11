@@ -1,21 +1,7 @@
-/*
-.heart, .expand  {
-	text-decoration: none;
-	color: black;
-	padding: 5px 10px 5px 5px;
-	font-size: x-large;
-}
-
-.heart:hover {
-	text-decoration: none;
-	color: rgb(214, 18, 18);
-}
-*/
-
 .heart {
 	text-decoration: none;
-	color: black;
 	font-size:medium;
+	color: black;
 }
 
 .heart:hover {
@@ -23,6 +9,9 @@
 	color: rgb(214, 18, 18);
 }
 
+i[class="fas fa-heart"] {
+	color: rgb(214, 18, 18);
+}
 
 
 

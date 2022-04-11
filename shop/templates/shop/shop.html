@@ -58,7 +58,7 @@ Shop
                 <p class="dimensions">{{ product.type | slice:"5:14"}} {{ product.dimensions | cut:" Dimensions" }}</p>
 
                 <div class="d-flex justify-content-between align-items-center"> <!-- d-flex -->
-                  <a class="heart" type="button" href=""><i class="far fa-heart"></i></a>
+                  <div type="button"><a class="heart"><i class="far fa-heart"></i></a></div>
                   <span class="btn-sm price">£{{ product.price }}</span>
                 </div>
                 <div class="d-flex justify-content-between align-items-center mt-2"> <!-- d-flex -->
@@ -89,7 +89,7 @@ Shop
 
     <!-- UP BUTTON -->
     <div class="mx-auto my-auto position-relative" type="button">
-        <a class="btt-link position-absolute bottom-0 end-0 fs-3">
+        <a class="position-absolute bottom-0 end-0 fs-3" id="btt-link">
             <i class="fas fa-arrow-up text-black m-3"></i>
         </a>	
     </div>
@@ -105,8 +105,15 @@ Shop
 
 <!-- UP BUTTON -->
 <script type="text/javascript">
-$('.btt-link').click(function(e) {
+$('#btt-link').click(function(e) {
   window.scrollTo(0,0)
+})
+</script>
+
+<!-- HEART BUTTON -->
+<script type="text/javascript">
+$('.heart').click(function(e) {
+  $("i", this).toggleClass("fas fa-heart far fa-heart");
 })
 </script>
 

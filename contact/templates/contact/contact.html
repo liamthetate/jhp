@@ -1,42 +1,38 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block extra_js %}
+<!-- CONTACT FORM SCRIPTS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>   
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_nm9oF3y1LaZ814oYB5jQQ");
+    })();
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="container-fluid mt-5">
-    <h1 class="pt-4">CONTACT</h1>
-
-
-<form class="row g-3 mt-3 needs-validation" novalidate>
-    <div class="col-md-8">
-      <label for="validationCustom01" class="form-label">Name</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
+  
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h1 class="pt-4">CONTACT</h1>  
+      <form class="row g-3 mt-3 mx-1" id="contact-form" onsubmit="return sendMail(this);">
+          <input type="text" name="name" id="name" placeholder="Your name" required />
+          <input type="email" name="emailaddress" id="email_address" placeholder="Your email" required />
+          <input type="text" name="subject" id="subject" placeholder="Subject" required />
+          <textarea id="message" name="message" placeholder="Your Message..." style="min-height: 200px;" required></textarea>
+          <input type="submit" name="submit-btn" id="submit-btn" value="Send" class="mb-4 btn btn-primary" />
+      </form>
     </div>
-
-    <div class="col-md-8">
-      <label for="validationCustomUsername" class="form-label">Email</label>
-      <div class="input-group has-validation">
-        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-        <div class="invalid-feedback">
-          Please enter an email address.
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-8">
-      <label for="validationCustom05" class="form-label">Message</label>
-      <textarea type="text" class="form-control" id="validationCustom05" required></textarea>
-      <div class="invalid-feedback">
-        Message can't be blank!
-      </div>
-    </div>
-    
-    <div class="col-12 mt-5 mb-5">
-      <button class="btn btn-primary" type="submit">Send Message</button>
-    </div>
-  </form>
+  </div>
+  
+  <div class="my-5">
+    <ul class="list-group list-group-flush align-items-center">
+      <li class="list-group-item"><i class="fas fa-phone-alt"></i> +44 (0)7890 692321</li>
+      <li class="list-group-item"><i class="fas fa-envelope"></i> info [at] judehowells.co.uk</li>
+    </ul>
+  </div>
 
 </div>
 
