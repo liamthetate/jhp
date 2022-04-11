@@ -77,7 +77,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
-            os.path.join(BASE_DIR, 'templates', 'allauth'), #this stops alluth loading as base.html
+            os.path.join(BASE_DIR, 'templates', 'allauth'), 
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -86,8 +86,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.media', #no image settings
-                'cart.contexts.cart_contents', #'cart' is app/folder. 'contexts' is the py file. 'cart_contents' is the name of the function.
+                'django.template.context_processors.media', 
+                'cart.contexts.cart_contents', 
                 #wishlists to go here
             ],
             'builtins': [
@@ -110,14 +110,13 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/' #useful to put /success to test if its working
+LOGIN_REDIRECT_URL = '/' 
 
 WSGI_APPLICATION = 'jhphotography.wsgi.application'
 

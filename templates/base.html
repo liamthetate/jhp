@@ -1,6 +1,5 @@
 {% load static %}
 
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -66,14 +65,10 @@
               </div>
             </div>
           
-          
           <!-- RIGHT MENU -->
           <div class="row align-items-end">
               <div class="col">
-                  
-                  <!-- PROFILE 
-                  <a class="link-dark menu-button-size me-3" href="{% url 'profile' %}"><i class="fas fa-user"></i></a>
-                    -->
+
                   <!-- ADMIN CRUD -->
                   <div class="dropstart">
                     <a class="link-dark menu-button-size profile-button" type="button"
@@ -92,24 +87,6 @@
                     </ul>
                   </div>
 
-                    
-                                
-                           
-                
-            
-
-                  <!-- RIGHT MENU OFF CANVAS: PROFILE 
-                  <a class="link-dark menu-button-size me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProfile" aria-controls="offcanvasRight"><i class="fas fa-user"></i></a>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProfile" aria-labelledby="offcanvasRightLabel">
-                      <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">PROFILE</h5>
-                          <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                      <div class="offcanvas-body"> 
-                        { include "profiles/profile.html" } 
-                      </div>
-                  </div> -->
-              
                   <!-- RIGHT MENU OFF CANVAS: CHECKOUT -->
                   {% if cart_items %}
                   <span class="item-count badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
@@ -120,17 +97,6 @@
                   <a class="link-dark menu-button-size me-2" type="button" data-bs-toggle="offcanvas"
                   data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
                   <i class="fas fa-shopping-cart"></i></a>
-
-                  <!-- 
-                  {% if cart_items %}
-                    <span class="total-icon badge rounded-pill bg-danger" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRightCheckout" aria-controls="offcanvasRight">
-                    {% if grand_total %}
-                      £{{ grand_total|floatformat:0 }}
-                    {% else %}
-                      £0.00
-                    {% endif %}</span>
-                  {% endif %}-->
                     
                   <div class="offcanvas {% block show %}{% endblock %} offcanvas-end" tabindex="-1" id="offcanvasRightCheckout" aria-labelledby="offcanvasRightLabel">
                       <div class="offcanvas-header">
@@ -139,7 +105,7 @@
                       </div>
                       <div class="offcanvas-body">
                         {% include "cart/cart.html" %}
-                        </div>
+                      </div>
                   </div>
                   
               </div>
@@ -172,12 +138,6 @@
 {% block content %}
 {% endblock %}
 
-<!-- <footer class="footer bg-dark mt-auto">
-    <div class="container p-4 position-relative">
-      <p class="text-light position-absolute top-50 start-50 translate-middle">Copyright 2022</p>
-    </div>
-  </footer> -->
-
   <div class="container mt-auto">
     <footer class="py-2 my-3">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -191,7 +151,6 @@
   </div>
 
 {% block postloadjs %}
-
 
 <script type="text/javascript">
   $('.toast').toast('show');
@@ -265,9 +224,6 @@
 </script>
 
 {% endblock %}
-
-
-
 
 </body>
 </html>

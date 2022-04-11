@@ -7,12 +7,6 @@
     right: 50px;
 }
 
-.total-icon {
-    position: absolute;
-    right: 20px;
-    top: 45px;
-}
-
 .item-count {
     position: absolute;
     right: 11px;
@@ -59,7 +53,6 @@ a:hover {
 
 .message-container {
     position:fixed;
-    /* top:50px; */
     bottom:0px;
     right:0px;
     z-index: 99999;
@@ -67,9 +60,6 @@ a:hover {
 }
 
 /* Product Form */
-
-
-
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;

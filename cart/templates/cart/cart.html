@@ -27,7 +27,7 @@
                                 {% include "cart/quantity-form.html" %}
                             </td>
                             <td class="pt-3 ms-3">
-                                <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p> <!-- {| calc_subtotal:item.quantity} -->
+                                <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                             </td>
                         </tr>
                     {% endfor %}
@@ -50,7 +50,7 @@
 
 </div>
 
-<!-- this responds to the small a links, update and remove -->
+<!-- this responds to the small links, update and remove -->
 <script type="text/javascript">
     // Update quantity on click
     $('.update-link').click(function(e) {

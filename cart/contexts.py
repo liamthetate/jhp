@@ -21,7 +21,7 @@ def cart_contents(request):
                 'quantity': item_data,
                 'product': product,
             })
-        else: #means its not a quantity but a dictionary JUNK CODE?
+        else: #JUNK CODE as i don't use sizes
             product = get_object_or_404(Product, pk=item_id)
             for size, quantity in item_data['items_by_size'].items():
                 total += quantity * product.price
@@ -40,13 +40,7 @@ def cart_contents(request):
         free_delivery_delta = 0
     
     grand_total = delivery + total
-
-    #if theres nothing in the cart, it won't show the offcanvas, if there is it will COULD GET ANNOYING!
-    if len(cart_items) == 0:
-        toggle = ""
-    else:   
-        toggle = "show"
-
+    
     context = {
         'cart_items': cart_items,
         'total': total,
@@ -55,7 +49,6 @@ def cart_contents(request):
         'free_delivery_delta': free_delivery_delta,
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
-        'toggle': toggle, #my extra bit
     }
 
     return context

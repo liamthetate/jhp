@@ -27,6 +27,7 @@ def add_to_cart(request, item_id):
 
     return redirect(redirect_url)
 
+
 def adjust_cart(request, item_id): #this is where i need to inject 'show' into html
     """Adjust the quantity of the specified product to the specified amount"""
 
@@ -45,9 +46,6 @@ def adjust_cart(request, item_id): #this is where i need to inject 'show' into h
     request.session['cart'] = cart
 
     return redirect('shop')
-
-
-    
 
 
 def remove_from_cart(request, item_id):

@@ -15,7 +15,7 @@ i[class="fas fa-heart"] {
 
 
 
-/* Portfolio Section */
+/* ----- NOT MY CODE ----*/
 .type {
 	margin:0;
 	padding:0;
@@ -86,14 +86,11 @@ ol.type li a:hover {
 	transition: all 0.5s ease-out;
 }
 
+/* ----- END OF SECTION ----*/
+
 .price {
 	padding:0;
 }
-
-
-
-
-
 
 .card-body p {
 	width:200px;

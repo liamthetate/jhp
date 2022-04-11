@@ -6,6 +6,7 @@ from django.conf import settings #for emails
 
 from .models import Order, OrderLineItem
 from shop.models import Product
+from profiles.models import UserProfile
 
 import json
 import time
@@ -39,7 +40,6 @@ class StripeWH_Handler:
 
     def handle_payment_intent_succeeded(self, event):
         intent = event.data.object
-        #print(intent)
         pid = intent.id 
         cart = intent.method.cart
         save_info = intent.metadata.save_info
