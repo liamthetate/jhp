@@ -1,108 +1,286 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ABOUT
+![product](media/readme/master-shot.jpg)
 
-Welcome Liam Tate,
+An ecommerce website of photographic prints from Pembrokeshire based photographer, Jude Howells: https://jhp-ms4.herokuapp.com/
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<br/>
+<br/>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# UX
 
-## Gitpod Reminders
+## User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+First Time Visitor Goals
 
-`python3 -m http.server`
+>I want to browse or purchase prints.
 
-A blue button should appear to click: _Make Public_,
+>I want to navigate the app/site, effortlessly.
 
-Another blue button should appear to click: _Open Browser_.
+>I want to see any new upcoming exhibitions.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<br/>
 
-A blue button should appear to click: _Make Public_,
+Returning Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+>I want to purchase a print or multiple prints and have them shipped to a previously saved address.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+>I want to check the blog & shop to see if there are any new prints.
 
-To log into the Heroku toolbelt CLI:
+>I want a quick way to get in contact with the creator.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<br/>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Frequent User Goals
 
-------
+>I want to check the blog/shop/exhibitions to see if there are any new prints or events.
 
-## Release History
+<br/>
+<br/>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Wireframes
+* [Desktop Home Screen](media/readme/01-desktop.png)
+* [Desktop Left Menu](media/readme/02-desktop-menu-simple.png)
+* [Desktop Shop](media/readme/03-desktop-shop-alt.png)
+* [Desktop Cart](media/readme/04-desktop-cart.png)
+* [Desktop Profile](media/readme/05-desktop-profile.png)
+* [Mobile Home Screen](media/readme/06-mobile.png)
+* [Mobile Left Menu](media/readme/07-mobile-menu.png)
+* [Mobile Shop](media/readme/08-mobile-shop.png)
+* [Mobile Profile](media/readme/09-mobile-profile.png)
+* [Mobile Cart](media/readme/10-mobile-cart.png)
+* [Mobile Wishlist](media/readme/11-mobile-wishlist)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<br/>
+<br/>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+# LIBRARIES, FRAMEWORKS, PROGRAMS & STUFF
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Bootstrap 5: Bootstrap was used throughout for layout, buttons etc.
+<br/>
+- Font Awesome: Font Awesome was used throughout for icons/buttons.
+<br/>
+- Gitpod: Gitpod was used for all code creation and pushing to GitHub.
+<br/>
+- GitHub: GitHub was used to store the projects code after being pushed from Gitpod.
+<br/>
+- Photoshop: Photoshop was used to create all the images.
+<br/>
+- Balsamiq: Balsamiq was used to create the wireframes during the design process.
+<br/>
+- Django & Python: For all the logic and CRUD operations.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Heroku: For deployment of the application
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Crispy Forms for Bootstrap 5: For all the form fun [link](https://pypi.org/project/crispy-bootstrap5/)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- EmailJS: For a simple contact page operation [link](https://www.emailjs.com/)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Favicon: I always forget these! I choose sunshine! [link](https://favicon.io/emoji-favicons/bright-button)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Lorem Ipsum: To demonstrate the blog functionality I used some creative Lorem Ipsum from [here](http://fillerama.io/) 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<br/>
+<br/>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# FEATURES 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Landing page
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![landing page](media/readme/master-shot.jpg)
+<br/>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Given that the main product for sale is of epic landscapes. I wanted the user to 'feel' that sense of scale with a fullscreen image when they first arrive at the site. 
 
-------
+## Top HUD
 
-## FAQ about the uptime script
+![top hud](media/readme/master-shot.jpg)
+<br/>
+The top nav bar contains the logo, an 'add' bee function, a search function and a notification of the number of problem bees.
 
-**Why have you added this script?**
+## Hover
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![hover](media/readme/master-shot.jpg)
+<br/>
+Each item brings up a descriptive box on mouser hover.
 
-**How will this affect me?**
+## Progress Bar
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![progress](media/readme/master-shot.jpg)
+<br/>
+A subtle progress bar updates with each completed task. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Notifications
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![notifications](media/readme/master-shot.jpg)
+<br/>
+A red box detailing the current task.
 
-**So….?**
+## Instructions
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![instructions](media/readme/master-shot.jpg)
+<br/>
+Just to make it clear what the user has to do.
 
-**Can I opt out?**
+## Report?
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![list item](media/readme/master-shot.jpg)
+<br/>
+Each lis item contains the name, productivity and health of each bee. They can either be selected, edited or individually reported.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Select many
 
-**Anything more?**
+![select](media/readme/master-shot.jpg)
+<br/>
+Each bee can either be selected and then batch 'reported'. There is also a REPORT ALL SELECTED button on the bottom of the page.
+<br/>
+<br/>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Testing User Stories from User Experience (UX) Section
 
----
+## First Time Visitor Goals:
 
-Happy coding!
+>I want to browse or purchase prints.
+
+Blurb here
+
+<br/>
+
+>I want to navigate the app/site, effortlessly.
+
+The UI is straight forward enough and as a one-shot experience there is a flow to the UX.
+
+<br/>
+
+>I want to see any new upcoming exhibitions.
+
+The UI is straight forward enough and as a one-shot experience there is a flow to the UX.
+
+<br/>
+
+## Returning Visitor Goals:
+
+>I want to purchase a print or multiple prints and have them shipped to a previously saved address.
+
+Your exisiting username probably doesn't exist anymore!
+
+<br/>
+
+>I want to check the blog & shop to see if there are any new prints.
+
+Nothing new on-screen, but you're a good person. 
+
+<br/>
+
+>I want a quick way to get in contact with the creator.
+
+It's not obvious but it's at the bottom of the start page.
+
+<br/>
+
+## Frequent User Goals:
+
+>I want to check the blog/shop/exhibitions to see if there are any new prints or events.
+
+I like your style.
+<br/>
+<br/>
+
+# FUTURE EXPANSION
+
+* Wishlist 
+
+* NEW section
+
+<br/>
+<br/>
+
+
+
+# TESTING
+
+## Devices & Browsers
+
+The site was tested on the following devices:
+
+Device | OS | Browser
+-------|----|---------
+iPhone 8 | iOS 14 | Safari, Ghostery, Firefox 
+Macbook Pro | Big Sur | Safari, Firefox, Chrome, Brave
+iPad | iOS 14 | Safari, Firefox 
+<br/>
+<br/>
+
+## Validator testing
+
+HTML: A few errors detected on the [W3C validator](https://validator.w3.org/) but in reference to DTL, tripping it up.
+
+PYTHON: A large list of pep8 recommendations came from [Pep8 online](http://pep8online.com). Sadly I haven't given myself enough time to correct all the code for the deadline... :/
+
+CSS: A few errors were found when passing through the [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator).
+
+<br/>
+<br/>
+
+## Lighthouse results
+
+Whilst the 'start' page generally [scored well](static/images/rm-lh1.png), the main page score reveals the amount of work that still needs to be done to meet a professional standard [link](media/readme/LighthouseReport.pdf).
+
+<br/>
+<br/>
+
+## Known bugs
+
+1. S L O W
+* The 
+
+
+2. Order Confirmation email doesn't work :(
+
+3 . ipad button overlays
+
+
+
+
+
+<br/>
+<br/>
+
+# DEPLOYMENT
+
+Heroku:
+* Login to Heroku
+* Create a new app > create-a-name-with-dashes > select region closest to you (Europe) > create app.
+* Under the Deploy tab > connect to GitHub > add depository name > search > connect.
+* Under the Heroku's Settings tab > click Reveal Config files
+* Enter 'I.P' and '0.0.0.0' 
+* Enter 'Port' and '5000'
+* Enter 'SECRET_KEY' and (matching value from env.py)
+* Enter 'MONGO_URI' and (value from MongoDB > Databases > Connect > Connect your applications ("mongodb+srv://" etc)
+* Enter 'MONGO_DBNAME' and (matching value from env.py)
+* (Using your CLI add/push procfile and requirements.txt to your github)
+* Under Heroku's Deploy tab > enable Automatic Deployment > then click Deploy Branch (to main).
+* Once it's built click 'View'.
+
+<br/>
+<br/>
+
+# CODE CREDITS
+
+GENERAL:
+
+The site owes an obvious debt to the CI Boutique Ado mini-project.
+
+The Bootstrap website, in particular the [examples page](https://getbootstrap.com/docs/5.0/examples/) helped with many aspects of the layout.
+
+
+SPECIFIC:
+
+For the main 'shop' UI I repurposed the 'portfolio' section [from this template, Magnum Master](https://usebootstrap.com/theme/magnum-master). Most of the stuff in shop/static/css&js folders is from this theme.
+
+The blog section of the site was heavily based on [this tutorial](samuelliedtke.com/blog/implement-comment-system-blog-application-django/)
+
+
+<br>
+<br>
